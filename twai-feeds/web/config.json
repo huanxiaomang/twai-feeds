@@ -3,7 +3,9 @@
   "feed_id": "web",
   "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/web",
   "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/web/icon.png",
-  "version": "3",
+  "version": "4",
+  "rss_urls": ["https://rss.app/feeds/v1.1/2HUK9fQrGRTCTwGi.json"],
+  "overview_prompt": "给你一系列推特数据，你是一个AI助手，帮助用户生成所需的全部帖子内容概览（overview），让用户快速了解发生了什么、有哪些新消息。\n\n与总结不同，总结需要完整整理并涵盖所有内容，而概览无需如此，只需提取精华部分。\n\n请生成一个Markdown格式的概览，注意：\n- 绝不是生成一个个独立的卡片；\n- 在有限字数和有限空间内，用简要文字整理内容；\n- 可以适当添加 <a> 标签的 href 指向对应链接，或使用超链接；\n- 可以加入作者头像等元素；\n- 需要按类别进行分类（可利用帖子中的 tag）；\n- 每个分类下生成适量文字的概览，使读者一眼看去即可大致了解内容，无需阅读每一个具体标题。\n\n每个具体条目后面必须加上对应的一个或多个帖子超链接作为信息来源，超链接格式为：<tweet-link tw-id='xxxid'>xxx标题</tweet-link>\n\n示例：\n- 一个 li 条目内容 <tweet-link tw-id='xxx'>[OxFmt 最新版]</tweet-link>\n- 下一个 li 条目内容 <tweet-link tw-id='xxx'>[Rolldown postBanner]</tweet-link> <tweet-link tw-id='xxx'>[Angular 用 Rolldown]</tweet-link>\n\n直接输出对应的 Markdown 内容，不要有任何多余废话！",
   "ai_bots": [
     {
       "bot_id": "diverge",

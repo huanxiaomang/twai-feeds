@@ -3,7 +3,7 @@
   "feed_id": "web",
   "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/web",
   "avatar": "https://vuejs.org/images/logo.png",
-  "version": "3",
+  "version": "4",
   "ai_bots": [
     {
       "bot_id": "diverge",
@@ -20,648 +20,1330 @@
       "prompt": "看不懂贴文，解释一下，要通俗易懂一些，可以灵活使用对应超链接以及输出代码给我。一定要直接输出内容，不要废话。"
     }
   ],
-  "list": [
-    {
-      "tw_id": "7e8066317608fbb0d458f0bb72a7a29b",
-      "url": "https://x.com/boshen_c/status/2001878127228891251",
-      "title": "香草泥121323",
-      "content": "In the l",
-      "originText": "In the latest version of Oxfmt (better prettier replacement):\n\n• oxfmt --migrate prettier\n• oxfmit --init\n• oxfmt --stdin-filepath for pipe usage\n• Node.js API\n• Sort package.json fields by default\n• Respect root .editorconfig\n\nGive it a try:\n\n• https://t.co/O68UNpWalD",
-      "date_published": "2025-12-19T04:51:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+  "list": {
+    "list": [
+      {
+        "tw_id": "d2ff70ed458e7c48a9fc518d9c7bcb18",
+        "url": "https://x.com/boshen_c/status/2004059221311320377",
+        "title": "RT by @youyuxi: Oxc -> vuejs/core 🎅 PR: * github.com/vuejs/core/pull/1… * github.com/vuejs/core/pull/1…",
+        "content": "Oxc -> vuejs/core 🎅\n\nPR:\n* github.com/vuejs/core/pull/1…\n* github.com/vuejs/core/pull/1…",
+        "originText": "Oxc -> vuejs/core 🎅\n\nPR:\n* github.com/vuejs/core/pull/1…\n* github.com/vuejs/core/pull/1…— Boshen (@boshen_c) Dec 25, 2025",
+        "date_published": "2025-12-25T05:18:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@boshen_c"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8_Y06PaYAA93lh.jpg?name=small&format=webp",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@boshen_c"
-        }
-      ],
-      "media": [],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "783008ee55035e9082c23beb081a5e23",
-      "url": "https://x.com/voidzerodev/status/2001683010446299613",
-      "title": "香草泥",
-      "content": "Want to append or prepend content to your files? Then you can use `postBanner` and `postFooter` in @rolldown_rs now!\n\nThe difference to `banner` and `footer`: The content will be added AFTER minification, making sure that comments are not removed\n\nTry it in our REPL… pic.twitter.com/qRjoClkaBz— VoidZero (@voidzerodev) December 18, 2025\n",
-      "originText": "Want to append or prepend content to your files? Then you can use `postBanner` and `postFooter` in @rolldown_rs now!\n\nThe difference to `banner` and `footer`: The content will be added AFTER minification...",
-      "date_published": "2025-12-18T15:56:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "c5db19b9b1687306e3fe172d715f1014",
+        "url": "https://x.com/youyuxi/status/2003608551886061602",
+        "title": "Be careful what you wish for 👀",
+        "content": "Be careful what you wish for 👀",
+        "originText": "Be careful what you wish for 👀— Evan You (@youyuxi) Dec 23, 2025",
+        "date_published": "2025-12-23T23:27:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@youyuxi"
+          }
+        ],
+        "media": [],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@voidzerodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/media/G8doFvLWUAA9P9t.jpg?name=small&format=webp",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "212a789daef1c79404fa4e1a7951c334",
-      "url": "https://x.com/threepointone/status/2001671800053469478",
-      "title": "香草泥",
-      "content": "@jaredpalmer as part of saving github, could you also save npm? :) please and thank you from the internet.— sunil pai (@threepointone) December 18, 2025\n",
-      "originText": "@jaredpalmer as part of saving github, could you also save npm? :) please and thank you from the internet.",
-      "date_published": "2025-12-18T15:12:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "daf38f2a56be07afb3a49e76796a69bc",
+        "url": "https://x.com/vueconfus/status/2003511008539574587",
+        "title": "RT by @youyuxi: Training budget still open? 👀#VueConfUS 2026 is a 3-day deep dive into modern frontend: Vue, Nuxt, testing, performance, and real-world workflows you can apply immediately. Stronger skills, better code, faster teams 🚀💥 Convince your boss →",
+        "content": "Training budget still open? 👀#VueConfUS 2026 is a 3-day deep dive into modern frontend: Vue, Nuxt, testing, performance, and real-world workflows you can apply immediately. \n\nStronger skills, better code, faster teams 🚀💥\n\nConvince your boss → https://t.co/ikzZHUx4Bc pic.twitter.com/nSH2rlfXxN— Vueconf.US (@vueconfus) December 23, 2025",
+        "originText": "Training budget still open? 👀#VueConfUS 2026 is a 3-day deep dive into modern frontend: Vue, Nuxt, testing, performance, and real-world workflows you can apply immediately. \n\nStronger skills, better code, faster teams 🚀💥\n\nConvince your boss → https://t.co/ikzZHUx4Bc pic.twitter.com/nSH2rlfXxN— Vueconf.US (@vueconfus) December 23, 2025\n",
+        "date_published": "2025-12-23T17:00:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@vueconfus"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/ext_tw_video_thumb/2003509807731359745/pu/img/8fUCWvlIlQ4aSuf9.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@threepointone"
-        }
-      ],
-      "media": [],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "ef90c42594eb507d735671ed90f7bb46",
-      "url": "https://x.com/boshen_c/status/2001670828996669760",
-      "title": "香草泥",
-      "content": "Do I know anyone who uses the angular CLI with NG_BUILD_OPTIMIZE_CHUNKS? It was previously using Rollup and now Rolldown.— Boshen (@boshen_c) December 18, 2025\n",
-      "originText": "Do I know anyone who uses the angular CLI with NG_BUILD_OPTIMIZE_CHUNKS? It was previously using Rollup and now Rolldown.",
-      "date_published": "2025-12-18T15:08:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "96bf75df6aae1183273591d91d44d663",
+        "url": "https://x.com/youyuxi/status/2003469603897536597",
+        "title": "Shoutout to the hard work by @edison11051 !",
+        "content": "Shoutout to the hard work by @edison11051 !",
+        "originText": "Shoutout to the hard work by @edison11051 !— Evan You (@youyuxi) Dec 23, 2025",
+        "date_published": "2025-12-23T14:15:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@youyuxi"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/card_img/2003468057717755904/lZHep5gz?format=jpg&name=800x419",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@boshen_c"
-        }
-      ],
-      "media": [],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "87dd186cb5594dda46b75a70c08e434a",
-      "url": "https://x.com/voidzerodev/status/2001342848898068784",
-      "title": "香草泥",
-      "content": "Want to understand why some of your @vitest_dev tests are slower than expected? Then you can use the built-in experimental @OpenTelemetry support to figure out what makes tests slow and how much time is spent on each part of it. 📈 \n\nWhen enabled, Vitest will generate traces… pic.twitter.com/Jyz5if6Mjf— VoidZero (@voidzerodev) December 17, 2025\n",
-      "originText": "Want to understand why some of your @vitest_dev tests are slower than expected? Then you can use the built-in experimental @OpenTelemetry support...",
-      "date_published": "2025-12-17T17:24:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "4bdbda3b2e190e930196870b0ebc579f",
+        "url": "https://x.com/Lostwind10/status/2003425562594013445",
+        "title": "RT @Lostwind10: 第一人称~大金金变骆驼趾~",
+        "content": "RT  @Lostwind10: 第一人称~大金金变骆驼趾~",
+        "originText": "RT  @Lostwind10: 第一人称~大金金变骆驼趾~— 猫と爪呸罗呸罗 (@Lostwind10) Dec 23, 2025",
+        "date_published": "2025-12-23T11:20:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8wxRLGbUAAts4W.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@voidzerodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/media/G8Yyts4XIAAylGf.jpg?name=small&format=webp",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "fdb60dfd9d294105ae5dc6c76366571e",
-      "url": "https://x.com/Atinux/status/2001337705050058822",
-      "title": "香草泥",
-      "content": "Did we mention that you can also use it on a Vite + Vue project? https://t.co/kZf4Cbvew2— Sébastien Chopin (@Atinux) December 17, 2025\n",
-      "originText": "Did we mention that you can also use it on a Vite + Vue project? https://t.co/kZf4Cbvew2",
-      "date_published": "2025-12-17T17:04:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "c94c25195463fd881c50e79277dabafb",
+        "url": "https://x.com/youyuxi/status/2003309257958260916",
+        "title": "Next gen performance is here",
+        "content": "Next gen performance is here",
+        "originText": "Next gen performance is here— Evan You (@youyuxi) Dec 23, 2025",
+        "date_published": "2025-12-23T03:38:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@youyuxi"
+          }
+        ],
+        "media": [],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@Atinux"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2001320239263268864/img/4oNlfCTBDbSW0HJp.jpg",
-          "type": "video"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "285aa74d9f96802c4abec6d1d52185bf",
-      "url": "https://x.com/youyuxi/status/2001265098984476808",
-      "title": "香草泥",
-      "content": "Had to answer this multiple times already, but yes this is how it was picked :)— Evan You (@youyuxi) Dec 17, 2025",
-      "originText": "Had to answer this multiple times already, but yes this is how it was picked :)",
-      "date_published": "2025-12-17T12:15:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "866f6287491098f085973aa14cc9b687",
+        "url": "https://x.com/Lostwind10/status/2003073109977629099",
+        "title": "第一人称~大金金变骆驼趾~",
+        "content": "第一人称~大金金变骆驼趾~",
+        "originText": "第一人称~大金金变骆驼趾~— 猫と爪呸罗呸罗 (@Lostwind10) Dec 22, 2025",
+        "date_published": "2025-12-22T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8wxRLGbUAAts4W.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@youyuxi"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2000957603199774721/img/97r6NOggzXvzCWYh.jpg",
-          "type": "video"
-        }
-      ],
-      "is_rt": false,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "7003025698dabedec3138d5b62c52918",
-      "url": "https://x.com/boshen_c/status/2001221950216266185",
-      "title": "香草泥",
-      "content": "Tailwind CSS is coming early in oxfmt! 🎅\n\nThe POC it based on was me telling Claude to work on two codebases simultaneously - oxc and prettier-plugin-tailwindcss.https://t.co/Om9Em2JSgX— Boshen (@boshen_c) December 17, 2025\n",
-      "originText": "Tailwind CSS is coming early in oxfmt! 🎅\n\nThe POC it based on was me telling Claude to work on two codebases simultaneously...",
-      "date_published": "2025-12-17T09:24:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "475db90caa7a0eaccf0f8b0e79b4917c",
+        "url": "https://x.com/Cameron_C2/status/2003064699819061395",
+        "title": "RT by @youyuxi: Oxlint v1.35.0 & oxfmt v0.20.0 are out! 🚀 → Code path analysis (CFG) for custom plugins → node API for oxfmt → 13 new rules! → New options/fixers for 15+ rules (e.g., no-base-to-string, no-unnecessary-type-assertion) → RuleTester globals support + plugin aliasing →…",
+        "content": "Oxlint v1.35.0 & oxfmt v0.20.0 are out! 🚀\n\n→ Code path analysis (CFG) for custom plugins\n→ node API for oxfmt\n→ 13 new rules!\n→ New options/fixers for 15+ rules (e.g., no-base-to-string, no-unnecessary-type-assertion)\n→ RuleTester globals support + plugin aliasing\n→…— Cam (@Cameron_C2) December 22, 2025",
+        "originText": "Oxlint v1.35.0 & oxfmt v0.20.0 are out! 🚀\n\n→ Code path analysis (CFG) for custom plugins\n→ node API for oxfmt\n→ 13 new rules!\n→ New options/fixers for 15+ rules (e.g., no-base-to-string, no-unnecessary-type-assertion)\n→ RuleTester globals support + plugin aliasing\n→…— Cam (@Cameron_C2) December 22, 2025\n",
+        "date_published": "2025-12-22T11:26:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@Cameron_C2"
+          }
+        ],
+        "media": [],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@boshen_c"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/card_img/2001221954209304576/NM6Lt4s0?format=jpg&name=800x419",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "a08baeb3270cebd7bc3d614aecb63557",
-      "url": "https://x.com/cityjsconf/status/2001133594815648205",
-      "title": "香草泥",
-      "content": "CityJS Conference is back in #Singapore! Join 20 speakers including @youyuxi, @coderkungfu free workshops, free meetups, and a full day exploring the latest trends in JavaScript and AI. Learn, connect, and level up your skills. \n\nGet your tickets now!https://t.co/faaVtt4rtS pic.twitter.com/xllxuLUDoN— CityJS Conferences (@cityjsconf) December 17, 2025\n",
-      "originText": "CityJS Conference is back in #Singapore! Join 20 speakers including @youyuxi, @coderkungfu free workshops...",
-      "date_published": "2025-12-17T03:33:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "efbd6ed932113fea0f854957d26e3d66",
+        "url": "https://x.com/Lostwind10/status/2003008848655982609",
+        "title": "RT @Lostwind10: 这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq",
+        "content": "RT  @Lostwind10: 这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq \nVideo",
+        "originText": "RT  @Lostwind10: 这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Dec 22, 2025",
+        "date_published": "2025-12-22T07:44:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8cy1sRbkAEB9cT.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@cityjsconf"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2001133559327682560/pu/img/ofXHZ07ZUBHRoIO0.jpg",
-          "type": "video"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "6a4b449867495e531f6d51b4b8b827c8",
-      "url": "https://x.com/serkodev/status/2000974800085508112",
-      "title": "香草泥",
-      "content": "In the next update of @vuejs language tools, we're shipping a brand-new Rich Hover Message feature ✨\nHover any Vue component to see beautifully formatted Props & Slots, all auto-generated.\nBuilt to bring your DX to the next level 🚀 More details coming soon, stay tuned! 👀 pic.twitter.com/JnbmfhLr51— SerKo (@serkodev) December 16, 2025\n",
-      "originText": "In the next update of @vuejs language tools, we're shipping a brand-new Rich Hover Message feature ✨\nHover any Vue component...",
-      "date_published": "2025-12-16T17:02:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "81e114d176c699ecfb26d9c2b775c2c9",
+        "url": "https://x.com/overlook_motel/status/2002849279535120863",
+        "title": "RT by @youyuxi: Anyone been tempted to contribute to @OxcProject but been put off by lack of Rust knowledge? This might be the one for you... Pure JS-side code in desperate need of optimization!",
+        "content": "Anyone been tempted to contribute to @OxcProject but been put off by lack of Rust knowledge? This might be the one for you... Pure JS-side code in desperate need of optimization! https://t.co/0DANm8kvFJ— overlookmotel (@overlook_motel) December 21, 2025",
+        "originText": "Anyone been tempted to contribute to @OxcProject but been put off by lack of Rust knowledge? This might be the one for you... Pure JS-side code in desperate need of optimization! https://t.co/0DANm8kvFJ— overlookmotel (@overlook_motel) December 21, 2025\n",
+        "date_published": "2025-12-21T21:10:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@overlook_motel"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/card_img/2002849074307809281/F_FukTQD?format=jpg&name=800x419",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@serkodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/amplify_video_thumb/2000974502415753219/img/1n1NbNuOgqLw5SVj.jpg",
-          "type": "video"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "db8869f635624b70f822301f12883cec",
-      "url": "https://x.com/voidzerodev/status/2000959462538912162",
-      "title": "香草泥",
-      "content": "Yes, @rolldown_rs is supporting Rollup's plugin API which is also the base of @vite_js plugins. But did you know that Rolldown also aligns with certain features from esbuild natively?\n\nIn turn, you can use `define` and `inject` without any extra plugins. Just define them via your…— VoidZero (@voidzerodev) December 16, 2025\n",
-      "originText": "Yes, @rolldown_rs is supporting Rollup's plugin API which is also the base of @vite_js plugins. But did you know that Rolldown also aligns...",
-      "date_published": "2025-12-16T16:01:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "6ac6499bcc06793984990a7233be7e79",
+        "url": "https://x.com/serkodev/status/2002348215044354233",
+        "title": "RT by @youyuxi:",
+        "content": "https://t.co/39YbOfWbwZ pic.twitter.com/TnfHbbkt7V— SerKo (@serkodev) December 20, 2025",
+        "originText": "https://t.co/39YbOfWbwZ pic.twitter.com/TnfHbbkt7V— SerKo (@serkodev) December 20, 2025\n",
+        "date_published": "2025-12-20T11:59:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@serkodev"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/2002347836772659204/img/n0wUnwpBBiOIuhum.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@voidzerodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/card_img/1999110434100559872/QM1n4mXs?format=png&name=800x419",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "bd538e246896dcf45ea368bf798b1785",
-      "url": "https://x.com/Cameron_C2/status/2000540121586647082",
-      "title": "香草泥",
-      "content": "Oxlint v1.33.0 & oxfmt v0.18.0 are out! 🚀\n\n→ 14 new rules!\n→ RuleTester enhancements for custom plugins\n→ lots of formatter CLI!\n→ package.json sorting\n→ `quoteProps` support\n→ 11 perf improvements!\n→ 10 formatter & 16 linter fixes!\n→ more doc improvements!— Cam (@Cameron_C2) December 15, 2025\n",
-      "originText": "Oxlint v1.33.0 & oxfmt v0.18.0 are out! 🚀\n\n→ 14 new rules!\n→ RuleTester enhancements for custom plugins\n→ lots of formatter CLI!...",
-      "date_published": "2025-12-15T12:15:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "82d2755db68abb25b87ff591b4d3bad2",
+        "url": "https://x.com/johnsoncodehk/status/2002315783259447456",
+        "title": "RT by @youyuxi: Vue Language Tools 3.2 has been released! Release Notes 👇",
+        "content": "Vue Language Tools 3.2 has been released!\n\nRelease Notes 👇https://t.co/5utoLTtCG1— Johnson Chu (@johnsoncodehk) December 20, 2025",
+        "originText": "Vue Language Tools 3.2 has been released!\n\nRelease Notes 👇https://t.co/5utoLTtCG1— Johnson Chu (@johnsoncodehk) December 20, 2025\n",
+        "date_published": "2025-12-20T09:50:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@johnsoncodehk"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/card_img/2000958549271384064/_KvdEN-5?format=png&name=800x419",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@Cameron_C2"
-        }
-      ],
-      "media": [],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "c45b52001ec2faf4365b8fa29da57be5",
-      "url": "https://x.com/youyuxi/status/2000369778113024046",
-      "title": "香草泥",
-      "content": "This is cool:\n\nrolldphobia.ssssota.dev/\n\nBundlephopia but powered by Rolldown and esm.sh and runs entirely in your browser!\n\nby @ssssotaro— Evan You (@youyuxi) Dec 15, 2025",
-      "originText": "This is cool:\n\nrolldphobia.ssssota.dev/\n\nBundlephopia but powered by Rolldown and esm.sh and runs entirely in your browser!\n\nby @ssssotaro",
-      "date_published": "2025-12-15T00:58:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "3c89de828051a56b8aa111f78aa93210",
+        "url": "https://x.com/djangoproject/status/2002030169540976952",
+        "title": "RT by @youyuxi: Some of the biggest companies in the world use Django, but the project's budget is comparable to a single bay-area engineer's salary. If your company uses Django, please ask them to donate! It's a great way to say thanks, and really helps keep the framework going.",
+        "content": "Some of the biggest companies in the world use Django, but the project's budget is comparable to a single bay-area engineer's salary.\n\nIf your company uses Django, please ask them to donate! It's a great way to say thanks, and really helps keep the framework going.— Django (@djangoproject) December 19, 2025",
+        "originText": "Some of the biggest companies in the world use Django, but the project's budget is comparable to a single bay-area engineer's salary.\n\nIf your company uses Django, please ask them to donate! It's a great way to say thanks, and really helps keep the framework going.— Django (@djangoproject) December 19, 2025\n",
+        "date_published": "2025-12-19T14:56:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@djangoproject"
+          }
+        ],
+        "media": [],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@youyuxi"
-        }
-      ],
-      "media": [],
-      "is_rt": false,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "6ffbfa0b1ce6879a225b45486ad0024e",
-      "url": "https://x.com/Cameron_C2/status/1999829905635201112",
-      "title": "香草泥",
-      "content": "Want to write your own JS plugin for oxlint? Here's how! 🚀 pic.twitter.com/6O484VTfCG— Cam (@Cameron_C2) December 13, 2025\n",
-      "originText": "Want to write your own JS plugin for oxlint? Here's how! 🚀 pic.twitter.com/6O484VTfCG",
-      "date_published": "2025-12-13T13:12:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "85a60a93570890bfcdbb0fb72590caf5",
+        "url": "https://x.com/Lostwind10/status/2001996944387047742",
+        "title": "RT @Lostwind10: 这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq",
+        "content": "RT  @Lostwind10: 这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq \nVideo",
+        "originText": "RT  @Lostwind10: 这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Dec 19, 2025",
+        "date_published": "2025-12-19T12:44:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8cy1sRbkAEB9cT.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@Cameron_C2"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/media/G8DR1BcW0AQIQ3i.jpg?name=small&format=webp",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "409b9369a172cfb9c620554cd2e532f3",
-      "url": "https://x.com/TheAlexLichter/status/1999590719623741714",
-      "title": "香草泥",
-      "content": "I had to show that feature in action and tell something about Hook Filters. The best is that it works framework-agnostic and gives great indicators without being a profiling pro.\n\nIt already helped improving perf in @nuxt_js. More to come.\n\nVideo up now on my YouTube channel 👀 https://t.co/3ELWQA5kow pic.twitter.com/yg6uOmttZp— Alexander Lichter (@TheAlexLichter) December 12, 2025\n",
-      "originText": "I had to show that feature in action and tell something about Hook Filters. The best is that it works framework-agnostic...",
-      "date_published": "2025-12-12T21:22:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "7e8066317608fbb0d458f0bb72a7a29b",
+        "url": "https://x.com/boshen_c/status/2001878127228891251",
+        "title": "RT by @youyuxi: In the latest version of Oxfmt (better prettier replacement): • oxfmt --migrate prettier • oxfmit --init • oxfmt --stdin-filepath for pipe usage • Node.js API • Sort package.json fields by default • Respect root .editorconfig Give it a try:",
+        "content": "In the latest version of Oxfmt (better prettier replacement):\n\n• oxfmt --migrate prettier\n• oxfmit --init\n• oxfmt --stdin-filepath for pipe usage\n• Node.js API\n• Sort package.json fields by default\n• Respect root .editorconfig\n\nGive it a try:\n\n• https://t.co/O68UNpWalD— Boshen (@boshen_c) December 19, 2025",
+        "originText": "In the latest version of Oxfmt (better prettier replacement):\n\n• oxfmt --migrate prettier\n• oxfmit --init\n• oxfmt --stdin-filepath for pipe usage\n• Node.js API\n• Sort package.json fields by default\n• Respect root .editorconfig\n\nGive it a try:\n\n• https://t.co/O68UNpWalD— Boshen (@boshen_c) December 19, 2025\n",
+        "date_published": "2025-12-19T04:51:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@boshen_c"
+          }
+        ],
+        "media": [],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@TheAlexLichter"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/media/G7_48bcXAAQk0PD.jpg?name=small&format=webp",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "22e41693efef9344278265beccbfd3ef",
-      "url": "https://x.com/youyuxi/status/1999324546160296269",
-      "title": "香草泥",
-      "content": "So many fine details improvements in Vue language-tools happening - @serkodev and @johnsoncodehk are doing a fantastic job!— Evan You (@youyuxi) Dec 12, 2025",
-      "originText": "So many fine details improvements in Vue language-tools happening - @serkodev and @johnsoncodehk are doing a fantastic job!",
-      "date_published": "2025-12-12T03:44:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "783008ee55035e9082c23beb081a5e23",
+        "url": "https://x.com/voidzerodev/status/2001683010446299613",
+        "title": "RT by @youyuxi: Want to append or prepend content to your files? Then you can use `postBanner` and `postFooter` in @rolldown_rs now! The difference to `banner` and `footer`: The content will be added AFTER minification, making sure that comments are not removed Try it in our REPL…",
+        "content": "Want to append or prepend content to your files? Then you can use `postBanner` and `postFooter` in @rolldown_rs now!\n\nThe difference to `banner` and `footer`: The content will be added AFTER minification, making sure that comments are not removed\n\nTry it in our REPL… pic.twitter.com/qRjoClkaBz— VoidZero (@voidzerodev) December 18, 2025",
+        "originText": "Want to append or prepend content to your files? Then you can use `postBanner` and `postFooter` in @rolldown_rs now!\n\nThe difference to `banner` and `footer`: The content will be added AFTER minification, making sure that comments are not removed\n\nTry it in our REPL… pic.twitter.com/qRjoClkaBz— VoidZero (@voidzerodev) December 18, 2025\n",
+        "date_published": "2025-12-18T15:56:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@voidzerodev"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8doFvLWUAA9P9t.jpg?name=small&format=webp",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@youyuxi"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/media/G75Zuq4bsAE77pz.jpg?name=small&format=webp",
-          "type": "image"
-        }
-      ],
-      "is_rt": false,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "0d01cc91ebe89345feb2f3489e8c3e05",
-      "url": "https://x.com/reactjs/status/1999217365628903739",
-      "title": "香草泥",
-      "content": "Researchers have found two new vulnerabilities in React Server Components while attempting to exploit the patches last week.\n\nThese are new issues, separate from the critical CVE last week. The patch for React2Shell remains effective for the Remote Code Execution exploit.— React (@reactjs) December 11, 2025\n",
-      "originText": "Researchers have found two new vulnerabilities in React Server Components while attempting to exploit the patches last week.\n\nThese are new issues...",
-      "date_published": "2025-12-11T20:38:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "212a789daef1c79404fa4e1a7951c334",
+        "url": "https://x.com/threepointone/status/2001671800053469478",
+        "title": "RT by @youyuxi: @jaredpalmer as part of saving github, could you also save npm? :) please and thank you from the internet.",
+        "content": "@jaredpalmer as part of saving github, could you also save npm? :) please and thank you from the internet.— sunil pai (@threepointone) December 18, 2025",
+        "originText": "@jaredpalmer as part of saving github, could you also save npm? :) please and thank you from the internet.— sunil pai (@threepointone) December 18, 2025\n",
+        "date_published": "2025-12-18T15:12:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@threepointone"
+          }
+        ],
+        "media": [],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@reactjs"
-        }
-      ],
-      "media": [],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "a06715d7853c15bb688c061e2d84907d",
-      "url": "https://x.com/voidzerodev/status/1999207444296171982",
-      "title": "香草泥",
-      "content": "✨ Hot from the release press: When using @rolldown_rs and experiencing a slow build, you now see which plugins slow your build down!\n\nNote that the reported time is an indication and includes overhead such as Rust-side processing, async scheduling, NAPI data conversion, and… pic.twitter.com/unJvXUaVkj— VoidZero (@voidzerodev) December 11, 2025\n",
-      "originText": "✨ Hot from the release press: When using @rolldown_rs and experiencing a slow build, you now see which plugins slow your build down!...",
-      "date_published": "2025-12-11T19:59:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "ef90c42594eb507d735671ed90f7bb46",
+        "url": "https://x.com/boshen_c/status/2001670828996669760",
+        "title": "RT by @youyuxi: Do I know anyone who uses the angular CLI with NG_BUILD_OPTIMIZE_CHUNKS? It was previously using Rollup and now Rolldown.",
+        "content": "Do I know anyone who uses the angular CLI with NG_BUILD_OPTIMIZE_CHUNKS? It was previously using Rollup and now Rolldown.— Boshen (@boshen_c) December 18, 2025",
+        "originText": "Do I know anyone who uses the angular CLI with NG_BUILD_OPTIMIZE_CHUNKS? It was previously using Rollup and now Rolldown.— Boshen (@boshen_c) December 18, 2025\n",
+        "date_published": "2025-12-18T15:08:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@boshen_c"
+          }
+        ],
+        "media": [],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@voidzerodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/media/G76ck2lX0AA7jAF.jpg?name=small&format=webp",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "8af88579505ef75893b8b5a0bd084dcd",
-      "url": "https://x.com/voidzerodev/status/1998846844537901499",
-      "title": "香草泥",
-      "content": "You can now break down import and transform times in @vitest_dev! This works in the Vitest UI, the terminal and also via the VS Code extension.\n\nTime to find out why tests are taking longer than expected! 👀\n\nMore in the docshttps://t.co/YH7nNb1cLx pic.twitter.com/ZeJa3e2N8t— VoidZero (@voidzerodev) December 10, 2025\n",
-      "originText": "You can now break down import and transform times in @vitest_dev! This works in the Vitest UI, the terminal...",
-      "date_published": "2025-12-10T20:06:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "06e255204e88c6fd60a86256645e68fe",
+        "url": "https://x.com/Lostwind10/status/2001623535866044596",
+        "title": "这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq",
+        "content": "这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq \nVideo",
+        "originText": "这根比较粗所以顶不进特别深，但还是被透的金金乱颤qwq \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Dec 18, 2025",
+        "date_published": "2025-12-18T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8cy1sRbkAEB9cT.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@voidzerodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/media/G71UnK1WwAAVp9x.jpg?name=small&format=webp",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "c986187e3ec51d00429a5917a25aa136",
-      "url": "https://x.com/vueconfus/status/1998802423234609446",
-      "title": "香草泥",
-      "content": "Early bird tickets for VueConf US end December 14! ✨\n\nLearn straight from @youyuxi and core @vuejs team, discover new Vue features, join advanced workshops, and connect with devs building the future of the ecosystem. \n\nGrab your discounted ticket now!\n🎟️ https://t.co/g1GIE1wHnw pic.twitter.com/cm0GCgmeu8— Vueconf.US (@vueconfus) December 10, 2025\n",
-      "originText": "Early bird tickets for VueConf US end December 14! ✨\n\nLearn straight from @youyuxi and core @vuejs team...",
-      "date_published": "2025-12-10T17:10:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "87dd186cb5594dda46b75a70c08e434a",
+        "url": "https://x.com/voidzerodev/status/2001342848898068784",
+        "title": "RT by @youyuxi: Want to understand why some of your @vitest_dev tests are slower than expected? Then you can use the built-in experimental @OpenTelemetry support to figure out what makes tests slow and how much time is spent on each part of it. 📈 When enabled, Vitest will generate traces…",
+        "content": "Want to understand why some of your @vitest_dev tests are slower than expected? Then you can use the built-in experimental @OpenTelemetry support to figure out what makes tests slow and how much time is spent on each part of it. 📈 \n\nWhen enabled, Vitest will generate traces… pic.twitter.com/Jyz5if6Mjf— VoidZero (@voidzerodev) December 17, 2025",
+        "originText": "Want to understand why some of your @vitest_dev tests are slower than expected? Then you can use the built-in experimental @OpenTelemetry support to figure out what makes tests slow and how much time is spent on each part of it. 📈 \n\nWhen enabled, Vitest will generate traces… pic.twitter.com/Jyz5if6Mjf— VoidZero (@voidzerodev) December 17, 2025\n",
+        "date_published": "2025-12-17T17:24:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@voidzerodev"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8Yyts4XIAAylGf.jpg?name=small&format=webp",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@vueconfus"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/ext_tw_video_thumb/1998801193745760256/pu/img/WmxLl1HKgxVm1WgK.jpg",
-          "type": "video"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "755dec9f92769f4314a8edb2453c3e28",
-      "url": "https://x.com/boshen_c/status/1998745639891644918",
-      "title": "香草泥",
-      "content": "oxlint --type-check -> sanityhttps://t.co/Hp2hAcdBXh— Boshen (@boshen_c) December 10, 2025\n",
-      "originText": "oxlint --type-check -> sanityhttps://t.co/Hp2hAcdBXh",
-      "date_published": "2025-12-10T13:24:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "fdb60dfd9d294105ae5dc6c76366571e",
+        "url": "https://x.com/Atinux/status/2001337705050058822",
+        "title": "RT by @youyuxi: Did we mention that you can also use it on a Vite + Vue project?",
+        "content": "Did we mention that you can also use it on a Vite + Vue project? https://t.co/kZf4Cbvew2— Sébastien Chopin (@Atinux) December 17, 2025",
+        "originText": "Did we mention that you can also use it on a Vite + Vue project? https://t.co/kZf4Cbvew2— Sébastien Chopin (@Atinux) December 17, 2025\n",
+        "date_published": "2025-12-17T17:04:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@Atinux"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/2001320239263268864/img/4oNlfCTBDbSW0HJp.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@boshen_c"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/card_img/2001286319570382848/yQiUNh3M?format=jpg&name=800x419",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "00e98d5afc44a26f3f86335fb9b62414",
-      "url": "https://x.com/CFchangelog/status/1998701931087425947",
-      "title": "香草泥",
-      "content": "Deploy static sites with Cloudflare Workers & Vite just got easier! 🎉 No more mandatory Wrangler config needed – the Vite plugin now generates defaults. Streamline your workflow! 🚀 SPAs still need that `assets.not_found_handling` setting. 😉https://t.co/ZSgIuvmNjW— Cloudflare Changelog (@CFchangelog) December 10, 2025\n",
-      "originText": "Deploy static sites with Cloudflare Workers & Vite just got easier! 🎉 No more mandatory Wrangler config needed...",
-      "date_published": "2025-12-10T10:30:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "285aa74d9f96802c4abec6d1d52185bf",
+        "url": "https://x.com/youyuxi/status/2001265098984476808",
+        "title": "Had to answer this multiple times already, but yes this is how it was picked :)",
+        "content": "Had to answer this multiple times already, but yes this is how it was picked :)",
+        "originText": "Had to answer this multiple times already, but yes this is how it was picked :)— Evan You (@youyuxi) Dec 17, 2025",
+        "date_published": "2025-12-17T12:15:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@youyuxi"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/2000957603199774721/img/97r6NOggzXvzCWYh.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@CFchangelog"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/card_img/2001238794507575297/21bSuISV?format=jpg&name=800x419",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "ca073f2580af5bf29749e9ad7c067885",
-      "url": "https://x.com/serkodev/status/1998342118364828159",
-      "title": "香草泥",
-      "content": "the latest @vuejs language tools now support \"Format Selection\" in VS Code ✨ you can format only the parts of your code you want! pic.twitter.com/dp3f14Z1bn— SerKo (@serkodev) December 9, 2025\n",
-      "originText": "the latest @vuejs language tools now support \"Format Selection\" in VS Code ✨ you can format only the parts of your code you want!",
-      "date_published": "2025-12-09T10:41:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "7003025698dabedec3138d5b62c52918",
+        "url": "https://x.com/boshen_c/status/2001221950216266185",
+        "title": "RT by @youyuxi: Tailwind CSS is coming early in oxfmt! 🎅 The POC it based on was me telling Claude to work on two codebases simultaneously - oxc and prettier-plugin-tailwindcss.",
+        "content": "Tailwind CSS is coming early in oxfmt! 🎅\n\nThe POC it based on was me telling Claude to work on two codebases simultaneously - oxc and prettier-plugin-tailwindcss.https://t.co/Om9Em2JSgX— Boshen (@boshen_c) December 17, 2025",
+        "originText": "Tailwind CSS is coming early in oxfmt! 🎅\n\nThe POC it based on was me telling Claude to work on two codebases simultaneously - oxc and prettier-plugin-tailwindcss.https://t.co/Om9Em2JSgX— Boshen (@boshen_c) December 17, 2025\n",
+        "date_published": "2025-12-17T09:24:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@boshen_c"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/card_img/2003758795500199936/1j8X-Hg_?format=jpg&name=800x419",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@serkodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/amplify_video_thumb/1998340029723332608/img/5_hs-okc_4moXa87.jpg",
-          "type": "video"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "a71a0d1a4614f5abf595acdd7f054ab8",
-      "url": "https://x.com/voidzerodev/status/1998089757318865092",
-      "title": "香草泥",
-      "content": "Announcing Oxlint Type-Aware Linting Alpha 🎁\n\nJust a few months after our technical preview, type-aware linting reaches the alpha milestone!\n\n✨ Type-aware rules can now be configured\n🙈 Inline comments to disable rules work for type-aware rules too\n✔ Auto fixes for type-aware…— VoidZero (@voidzerodev) December 8, 2025\n",
-      "originText": "Announcing Oxlint Type-Aware Linting Alpha 🎁\n\nJust a few months after our technical preview, type-aware linting reaches the alpha milestone!...",
-      "date_published": "2025-12-08T17:58:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "a08baeb3270cebd7bc3d614aecb63557",
+        "url": "https://x.com/cityjsconf/status/2001133594815648205",
+        "title": "RT by @youyuxi: CityJS Conference is back in #Singapore! Join 20 speakers including @youyuxi, @coderkungfu free workshops, free meetups, and a full day exploring the latest trends in JavaScript and AI. Learn, connect, and level up your skills. Get your tickets now!",
+        "content": "CityJS Conference is back in #Singapore! Join 20 speakers including @youyuxi, @coderkungfu free workshops, free meetups, and a full day exploring the latest trends in JavaScript and AI. Learn, connect, and level up your skills. \n\nGet your tickets now!https://t.co/faaVtt4rtS pic.twitter.com/xllxuLUDoN— CityJS Conferences (@cityjsconf) December 17, 2025",
+        "originText": "CityJS Conference is back in #Singapore! Join 20 speakers including @youyuxi, @coderkungfu free workshops, free meetups, and a full day exploring the latest trends in JavaScript and AI. Learn, connect, and level up your skills. \n\nGet your tickets now!https://t.co/faaVtt4rtS pic.twitter.com/xllxuLUDoN— CityJS Conferences (@cityjsconf) December 17, 2025\n",
+        "date_published": "2025-12-17T03:33:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@cityjsconf"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/ext_tw_video_thumb/2001133559327682560/pu/img/ofXHZ07ZUBHRoIO0.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@voidzerodev"
-        }
-      ],
-      "media": [
-        {
-          "url": "https://pbs.twimg.com/card_img/2000626557249896448/vMahB6mu?format=jpg&name=800x419",
-          "type": "image"
-        }
-      ],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    },
-    {
-      "tw_id": "8c8b4201e1c2ee88062d2e84001210d7",
-      "url": "https://x.com/Cameron_C2/status/1998043127802953814",
-      "title": "香草泥",
-      "content": "Oxlint v1.32.0 & oxfmt v1.17.0 are out! 🚀\n\n→ new rule: eslint/no-useless-return\n→ globals support for custom plugins\n→ fix support for type aware rules\n→ 7x formatter bug fixes\n→ 30+ linter bug fixes— Cam (@Cameron_C2) December 8, 2025\n",
-      "originText": "Oxlint v1.32.0 & oxfmt v1.17.0 are out! 🚀\n\n→ new rule: eslint/no-useless-return\n→ globals support for custom plugins...",
-      "date_published": "2025-12-08T14:52:00.000Z",
-      "author": {
-        "author_id": "@youyuxi",
-        "author_name": "youyuxi",
-        "author_favicon": "https://unavatar.io/x/youyuxi"
+      {
+        "tw_id": "6a4b449867495e531f6d51b4b8b827c8",
+        "url": "https://x.com/serkodev/status/2000974800085508112",
+        "title": "RT by @youyuxi: In the next update of @vuejs language tools, we're shipping a brand-new Rich Hover Message feature ✨ Hover any Vue component to see beautifully formatted Props & Slots, all auto-generated. Built to bring your DX to the next level 🚀 More details coming soon, stay tuned! 👀",
+        "content": "In the next update of @vuejs language tools, we're shipping a brand-new Rich Hover Message feature ✨\nHover any Vue component to see beautifully formatted Props & Slots, all auto-generated.\nBuilt to bring your DX to the next level 🚀 More details coming soon, stay tuned! 👀 pic.twitter.com/JnbmfhLr51— SerKo (@serkodev) December 16, 2025",
+        "originText": "In the next update of @vuejs language tools, we're shipping a brand-new Rich Hover Message feature ✨\nHover any Vue component to see beautifully formatted Props & Slots, all auto-generated.\nBuilt to bring your DX to the next level 🚀 More details coming soon, stay tuned! 👀 pic.twitter.com/JnbmfhLr51— SerKo (@serkodev) December 16, 2025\n",
+        "date_published": "2025-12-16T17:02:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@serkodev"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/2000974502415753219/img/1n1NbNuOgqLw5SVj.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
       },
-      "authors": [
-        {
-          "name": "@Cameron_C2"
-        }
-      ],
-      "media": [],
-      "is_rt": true,
-      "is_translated": false,
-      "tags": ["tech"]
-    }
-  ],
+      {
+        "tw_id": "db8869f635624b70f822301f12883cec",
+        "url": "https://x.com/voidzerodev/status/2000959462538912162",
+        "title": "RT by @youyuxi: Yes, @rolldown_rs is supporting Rollup's plugin API which is also the base of @vite_js plugins. But did you know that Rolldown also aligns with certain features from esbuild natively? In turn, you can use `define` and `inject` without any extra plugins. Just define them via your…",
+        "content": "Yes, @rolldown_rs is supporting Rollup's plugin API which is also the base of @vite_js plugins. But did you know that Rolldown also aligns with certain features from esbuild natively?\n\nIn turn, you can use `define` and `inject` without any extra plugins. Just define them via your…— VoidZero (@voidzerodev) December 16, 2025",
+        "originText": "Yes, @rolldown_rs is supporting Rollup's plugin API which is also the base of @vite_js plugins. But did you know that Rolldown also aligns with certain features from esbuild natively?\n\nIn turn, you can use `define` and `inject` without any extra plugins. Just define them via your…— VoidZero (@voidzerodev) December 16, 2025\n",
+        "date_published": "2025-12-16T16:01:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@voidzerodev"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/card_img/2001745710799294464/3OAZqlEX?format=png&name=800x419",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "bd538e246896dcf45ea368bf798b1785",
+        "url": "https://x.com/Cameron_C2/status/2000540121586647082",
+        "title": "RT by @youyuxi: Oxlint v1.33.0 & oxfmt v0.18.0 are out! 🚀 → 14 new rules! → RuleTester enhancements for custom plugins → lots of formatter CLI! → package.json sorting → `quoteProps` support → 11 perf improvements! → 10 formatter & 16 linter fixes! → more doc improvements!",
+        "content": "Oxlint v1.33.0 & oxfmt v0.18.0 are out! 🚀\n\n→ 14 new rules!\n→ RuleTester enhancements for custom plugins\n→ lots of formatter CLI!\n→ package.json sorting\n→ `quoteProps` support\n→ 11 perf improvements!\n→ 10 formatter & 16 linter fixes!\n→ more doc improvements!— Cam (@Cameron_C2) December 15, 2025",
+        "originText": "Oxlint v1.33.0 & oxfmt v0.18.0 are out! 🚀\n\n→ 14 new rules!\n→ RuleTester enhancements for custom plugins\n→ lots of formatter CLI!\n→ package.json sorting\n→ `quoteProps` support\n→ 11 perf improvements!\n→ 10 formatter & 16 linter fixes!\n→ more doc improvements!— Cam (@Cameron_C2) December 15, 2025\n",
+        "date_published": "2025-12-15T12:15:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@Cameron_C2"
+          }
+        ],
+        "media": [],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "c45b52001ec2faf4365b8fa29da57be5",
+        "url": "https://x.com/youyuxi/status/2000369778113024046",
+        "title": "This is cool:  Bundlephopia but powered by Rolldown and  and runs entirely in your browser! by @ssssotaro",
+        "content": "This is cool:\n\n rolldphobia.ssssota.dev/\n\nBundlephopia but powered by Rolldown and  esm.sh and runs entirely in your browser!\n\nby  @ssssotaro",
+        "originText": "This is cool:\n\n rolldphobia.ssssota.dev/\n\nBundlephopia but powered by Rolldown and  esm.sh and runs entirely in your browser!\n\nby  @ssssotaro— Evan You (@youyuxi) Dec 15, 2025",
+        "date_published": "2025-12-15T00:58:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@youyuxi"
+          }
+        ],
+        "media": [],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "9a7809a9fa44f4bfef2a4ef17239e5d7",
+        "url": "https://x.com/Lostwind10/status/2000174112187257174",
+        "title": "索尼相机和Gopro拍的~ 也分别是下两次要发的视频哦w",
+        "content": "索尼相机和Gopro拍的~\n也分别是下两次要发的视频哦w",
+        "originText": "索尼相机和Gopro拍的~\n也分别是下两次要发的视频哦w— 猫と爪呸罗呸罗 (@Lostwind10) Dec 14, 2025",
+        "date_published": "2025-12-14T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8ILtIxaIAAcaTS.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "6ffbfa0b1ce6879a225b45486ad0024e",
+        "url": "https://x.com/Cameron_C2/status/1999829905635201112",
+        "title": "RT by @youyuxi: Want to write your own JS plugin for oxlint? Here's how! 🚀 pic.",
+        "content": "Want to write your own JS plugin for oxlint? Here's how! 🚀 pic.twitter.com/6O484VTfCG— Cam (@Cameron_C2) December 13, 2025",
+        "originText": "Want to write your own JS plugin for oxlint? Here's how! 🚀 pic.twitter.com/6O484VTfCG— Cam (@Cameron_C2) December 13, 2025\n",
+        "date_published": "2025-12-13T13:12:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@Cameron_C2"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G8DR1BcW0AQIQ3i.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "409b9369a172cfb9c620554cd2e532f3",
+        "url": "https://x.com/TheAlexLichter/status/1999590719623741714",
+        "title": "RT by @youyuxi: I had to show that feature in action and tell something about Hook Filters. The best is that it works framework-agnostic and gives great indicators without being a profiling pro. It already helped improving perf in @nuxt_js. More to come. Video up now on my YouTube channel 👀",
+        "content": "I had to show that feature in action and tell something about Hook Filters. The best is that it works framework-agnostic and gives great indicators without being a profiling pro.\n\nIt already helped improving perf in @nuxt_js. More to come.\n\nVideo up now on my YouTube channel 👀 https://t.co/3ELWQA5kow pic.twitter.com/yg6uOmttZp— Alexander Lichter (@TheAlexLichter) December 12, 2025",
+        "originText": "I had to show that feature in action and tell something about Hook Filters. The best is that it works framework-agnostic and gives great indicators without being a profiling pro.\n\nIt already helped improving perf in @nuxt_js. More to come.\n\nVideo up now on my YouTube channel 👀 https://t.co/3ELWQA5kow pic.twitter.com/yg6uOmttZp— Alexander Lichter (@TheAlexLichter) December 12, 2025\n",
+        "date_published": "2025-12-12T21:22:00.000Z",
+        "author": {
+          "author_id": "@youyuxi",
+          "author_name": "youyuxi",
+          "author_favicon": "https://unavatar.io/x/youyuxi"
+        },
+        "authors": [
+          {
+            "name": "@TheAlexLichter"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G7_48bcXAAQk0PD.jpg?name=small&format=webp",
+            "type": "image"
+          }
+        ],
+        "is_rt": true,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "34ba115adecfcb14d6057e867d667db2",
+        "url": "https://x.com/Lostwind10/status/1998724686105235572",
+        "title": "不得不说这个视角确实色~我还在上面架了个相机拍的固定视角，下次视频发一下w",
+        "content": "不得不说这个视角确实色~我还在上面架了个相机拍的固定视角，下次视频发一下w \nVideo",
+        "originText": "不得不说这个视角确实色~我还在上面架了个相机拍的固定视角，下次视频发一下w \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Dec 10, 2025",
+        "date_published": "2025-12-10T12:01:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G7zoSxMakAE_S_4.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "c57557dbe76adaef000934b0e1100c6b",
+        "url": "https://x.com/Lostwind10/status/1997275428764237866",
+        "title": "茜特菈莉的衣服看着多，实际就是到处漏风的情趣服~奶奶好烧哦",
+        "content": "茜特菈莉的衣服看着多，实际就是到处漏风的情趣服~奶奶好烧哦",
+        "originText": "茜特菈莉的衣服看着多，实际就是到处漏风的情趣服~奶奶好烧哦— 猫と爪呸罗呸罗 (@Lostwind10) Dec 6, 2025",
+        "date_published": "2025-12-06T12:02:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G7ed1hhb0AA_b_y.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "dbca6963a146adbee95766980be84b1f",
+        "url": "https://x.com/Lostwind10/status/1995846675550867898",
+        "title": "买了个gopro固定到炮机上了~喜欢的话再多拍点~ 不过gopro是4K但是为啥比相机的1080p糊好多x",
+        "content": "买了个gopro固定到炮机上了~喜欢的话再多拍点~\n不过gopro是4K但是为啥比相机的1080p糊好多x \nVideo",
+        "originText": "买了个gopro固定到炮机上了~喜欢的话再多拍点~\n不过gopro是4K但是为啥比相机的1080p糊好多x \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Dec 2, 2025",
+        "date_published": "2025-12-02T13:25:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G7aCykwbIAAVpty.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "799b4785a4748c32a16e70554fcfdd26",
+        "url": "https://x.com/Lostwind10/status/1994376414314029186",
+        "title": "啊~张嘴~",
+        "content": "啊~张嘴~",
+        "originText": "啊~张嘴~— 猫と爪呸罗呸罗 (@Lostwind10) Nov 28, 2025",
+        "date_published": "2025-11-28T12:02:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G61ywLvb0AAnEdv.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "13750fa46cc7e54f8339d05bebe00648",
+        "url": "https://x.com/Lostwind10/status/1992926221290910127",
+        "title": "拍了个裙下视角w这个姿势玩的腿软qwq 换了好几根玩具最后还是被这根玻璃的透尿了w",
+        "content": "拍了个裙下视角w这个姿势玩的腿软qwq\n换了好几根玩具最后还是被这根玻璃的透尿了w \nVideo",
+        "originText": "拍了个裙下视角w这个姿势玩的腿软qwq\n换了好几根玩具最后还是被这根玻璃的透尿了w \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Nov 24, 2025",
+        "date_published": "2025-11-24T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/1992900544516812800/img/Mtm6StYefoq1k23O.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "3ebae59f1832385c672cefa762ad10bf",
+        "url": "https://x.com/Lostwind10/status/1991478042523496856",
+        "title": "拍的时候才意识到没有紫色指甲油！就涂了红色的，后期改了下颜色w",
+        "content": "拍的时候才意识到没有紫色指甲油！就涂了红色的，后期改了下颜色w",
+        "originText": "拍的时候才意识到没有紫色指甲油！就涂了红色的，后期改了下颜色w— 猫と爪呸罗呸罗 (@Lostwind10) Nov 20, 2025",
+        "date_published": "2025-11-20T12:05:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G6MlzZhacAECqVV.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "4a4d9616bbdec6f18e54385048a890c3",
+        "url": "https://x.com/Lostwind10/status/1990027120454902172",
+        "title": "好像大家比较喜欢看第一人称的手冲w？ 自己看习惯了倒是没什么感觉qwq",
+        "content": "好像大家比较喜欢看第一人称的手冲w？\n自己看习惯了倒是没什么感觉qwq \nVideo",
+        "originText": "好像大家比较喜欢看第一人称的手冲w？\n自己看习惯了倒是没什么感觉qwq \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Nov 16, 2025",
+        "date_published": "2025-11-16T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/1989980699546529792/img/4cmdkX51MSoSNkPJ.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "1c1b7a727ec8336424d8cf1d9c03ac68",
+        "url": "https://x.com/Lostwind10/status/1988577675133456532",
+        "title": "自己掰开~虽然是飞机杯的x 因为飞机杯材质很软很舒服，不拍摄的时候也喜欢这么玩w",
+        "content": "自己掰开~虽然是飞机杯的x\n因为飞机杯材质很软很舒服，不拍摄的时候也喜欢这么玩w",
+        "originText": "自己掰开~虽然是飞机杯的x\n因为飞机杯材质很软很舒服，不拍摄的时候也喜欢这么玩w— 猫と爪呸罗呸罗 (@Lostwind10) Nov 12, 2025",
+        "date_published": "2025-11-12T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G5jYy1ubAAAnVPF.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "7a6a0f0445f44fd208a747c15214b1a9",
+        "url": "https://x.com/Lostwind10/status/1987128629986533860",
+        "title": "又拍了狗狗撒尿的姿势w 这次加速啦~速度一快就会被透出白沫qwq",
+        "content": "又拍了狗狗撒尿的姿势w\n这次加速啦~速度一快就会被透出白沫qwq \nVideo",
+        "originText": "又拍了狗狗撒尿的姿势w\n这次加速啦~速度一快就会被透出白沫qwq \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Nov 8, 2025",
+        "date_published": "2025-11-08T12:02:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/1987091213758115840/img/oxYZU63e5BR1DhB3.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "2f4fd54549540de7c0e23743ba9559e5",
+        "url": "https://x.com/Lostwind10/status/1985678452616552780",
+        "title": "之前拍玻璃管内窥时用来扩张用的~撑到最大惹qwq",
+        "content": "之前拍玻璃管内窥时用来扩张用的~撑到最大惹qwq",
+        "originText": "之前拍玻璃管内窥时用来扩张用的~撑到最大惹qwq— 猫と爪呸罗呸罗 (@Lostwind10) Nov 4, 2025",
+        "date_published": "2025-11-04T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G46BI37aUAAnUHI.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "a5dd75da1f6d503f720ded6a1390ccf8",
+        "url": "https://x.com/Lostwind10/status/1984228901183426628",
+        "title": "金金太粗了关系~炮机启动的时候身体还会被带着前后移动qwq",
+        "content": "金金太粗了关系~炮机启动的时候身体还会被带着前后移动qwq \nVideo",
+        "originText": "金金太粗了关系~炮机启动的时候身体还会被带着前后移动qwq \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Oct 31, 2025",
+        "date_published": "2025-10-31T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G4lmD1DWMAA9wml.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "b81eb8ccf277050ec535dbd47ea08a23",
+        "url": "https://x.com/Lostwind10/status/1982779437457580364",
+        "title": "这个没有紫色那根最粗的地方粗，但是粗细比较一致可以抽插顺畅一些w",
+        "content": "这个没有紫色那根最粗的地方粗，但是粗细比较一致可以抽插顺畅一些w",
+        "originText": "这个没有紫色那根最粗的地方粗，但是粗细比较一致可以抽插顺畅一些w— 猫と爪呸罗呸罗 (@Lostwind10) Oct 27, 2025",
+        "date_published": "2025-10-27T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G4Q0JNwWEAAsosc.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "736e55449b62a232f20e982bb96c3fef",
+        "url": "https://x.com/Lostwind10/status/1982404446769590536",
+        "title": "女仆装的男娘猫猫～",
+        "content": "女仆装的男娘猫猫～",
+        "originText": "女仆装的男娘猫猫～— 猫と爪呸罗呸罗 (@Lostwind10) Oct 26, 2025",
+        "date_published": "2025-10-26T11:10:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G4LqVAoXwAAcv7s.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "c840bd6e8b5e876b7be7130b3f390861",
+        "url": "https://x.com/Lostwind10/status/1981329855624204483",
+        "title": "虽然尽力想寸止了，但太舒服了还是漏出来了qwq 止都止不住w 导致最终射的量不是太多~",
+        "content": "虽然尽力想寸止了，但太舒服了还是漏出来了qwq\n止都止不住w 导致最终射的量不是太多~ \nVideo",
+        "originText": "虽然尽力想寸止了，但太舒服了还是漏出来了qwq\n止都止不住w 导致最终射的量不是太多~ \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Oct 23, 2025",
+        "date_published": "2025-10-23T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/1981317762472423424/img/eEgb-1e-6HE67GZs.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "17bfa8a613a71c5e9de7c3c6b62288d9",
+        "url": "https://x.com/Lostwind10/status/1979880339612086415",
+        "title": "拍了近距离手冲的~涂了油感觉清晰度都上升了w",
+        "content": "拍了近距离手冲的~涂了油感觉清晰度都上升了w",
+        "originText": "拍了近距离手冲的~涂了油感觉清晰度都上升了w— 猫と爪呸罗呸罗 (@Lostwind10) Oct 19, 2025",
+        "date_published": "2025-10-19T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G3m_0uOWUAAZY0j.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "96c9235c0dc6e48386e040775a7a4a8c",
+        "url": "https://x.com/Lostwind10/status/1978466987509678181",
+        "title": "编辑了重新发一下~ 后面还拍了一次这个姿势的w",
+        "content": "编辑了重新发一下~\n后面还拍了一次这个姿势的w \nVideo",
+        "originText": "编辑了重新发一下~\n后面还拍了一次这个姿势的w \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Oct 15, 2025",
+        "date_published": "2025-10-15T14:24:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G3TvVhGbIAAk05W.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "4611131135949bf62b6b759705271545",
+        "url": "https://x.com/Lostwind10/status/1976981200481972256",
+        "title": "把炮机翘起来45°拍的后入视角~ 下次发这个姿势的视频w 比较受欢迎的话再拍点这个姿势的~",
+        "content": "把炮机翘起来45°拍的后入视角~\n下次发这个姿势的视频w 比较受欢迎的话再拍点这个姿势的~",
+        "originText": "把炮机翘起来45°拍的后入视角~\n下次发这个姿势的视频w 比较受欢迎的话再拍点这个姿势的~— 猫と爪呸罗呸罗 (@Lostwind10) Oct 11, 2025",
+        "date_published": "2025-10-11T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/media/G2-eLjDbwAAz0JI.jpg",
+            "type": "image"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "26c166db61b9dc487e9a10880d099b4b",
+        "url": "https://x.com/Lostwind10/status/1975531611816140989",
+        "title": "表面凹凸不平插入不太顺畅qwq 但是充实感超强烈w",
+        "content": "表面凹凸不平插入不太顺畅qwq\n但是充实感超强烈w \nVideo",
+        "originText": "表面凹凸不平插入不太顺畅qwq\n但是充实感超强烈w \nVideo\n  — 猫と爪呸罗呸罗 (@Lostwind10) Oct 7, 2025",
+        "date_published": "2025-10-07T12:00:00.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/amplify_video_thumb/1975475455139717123/img/qhACg55vEmGT9OTR.jpg",
+            "type": "video"
+          }
+        ],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      },
+      {
+        "tw_id": "7f45613a03a111386249f7a82a4c027f",
+        "url": "https://x.com/Lostwind10/status/1901604646789255382",
+        "title": "手指放在屁股上都能感觉到凹凸不平的金金插入时的震动~ 拍了下掰开的qwq 看起来还是很紧捏w（看到这句话记得提肛x",
+        "content": "手指放在屁股上都能感觉到凹凸不平的金金插入时的震动~ 拍了下掰开的qwq 看起来还是很紧捏w（看到这句话记得提肛x",
+        "originText": "手指放在屁股上都能感觉到凹凸不平的金金插入时的震动~ 拍了下掰开的qwq 看起来还是很紧捏w（看到这句话记得提肛x",
+        "date_published": "2025-03-17T12:00:52.000Z",
+        "author": {
+          "author_id": "@Lostwind10",
+          "author_name": "Lostwind10",
+          "author_favicon": "https://unavatar.io/x/Lostwind10"
+        },
+        "authors": [
+          {
+            "name": "@Lostwind10"
+          }
+        ],
+        "media": [],
+        "is_rt": false,
+        "is_translated": false,
+        "tags": []
+      }
+    ],
+    "ai_bots": [
+      {
+        "bot_id": "diverge",
+        "name": "发散",
+        "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/web/bot1.jpg",
+        "description": "我会帮你解析推文并发散思考，提出相关关键词或问题",
+        "prompt": "你是一个资历丰富的程序员，有着资深的知识底蕴，很多新技术对你来说并不陌生，可以给你一个推文后，提出相关的关键词，发散相关问题，引导用户思考，做出一些点评等等。注意你的目标不是解析推文，而是发散思考。一定要直接输出内容，不要废话，字数在100-200字左右。"
+      },
+      {
+        "bot_id": "parser",
+        "name": "推文解析",
+        "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/web/bot2.jpg",
+        "description": "如果是技术类推文，我会自动帮你解析内容",
+        "prompt": "看不懂贴文，解释一下，要通俗易懂一些，可以灵活使用对应超链接以及输出代码给我。一定要直接输出内容，不要废话。"
+      }
+    ],
+    "overview_prompt": "给你一系列推特数据，你是一个AI助手，帮助用户生成所需的全部帖子内容概览（overview），让用户快速了解发生了什么、有哪些新消息。\n\n与总结不同，总结需要完整整理并涵盖所有内容，而概览无需如此，只需提取精华部分。\n\n请生成一个Markdown格式的概览，注意：\n- 绝不是生成一个个独立的卡片；\n- 在有限字数和有限空间内，用简要文字整理内容；\n- 可以适当添加 <a> 标签的 href 指向对应链接，或使用超链接；\n- 可以加入作者头像等元素；\n- 需要按类别进行分类（可利用帖子中的 tag）；\n- 每个分类下生成适量文字的概览，使读者一眼看去即可大致了解内容，无需阅读每一个具体标题。\n\n每个具体条目后面必须加上对应的一个或多个帖子超链接作为信息来源，超链接格式为：<tweet-link tw-id='xxxid'>xxx标题</tweet-link>\n\n示例：\n- 一个 li 条目内容 <tweet-link tw-id='xxx'>[OxFmt 最新版]</tweet-link>\n- 下一个 li 条目内容 <tweet-link tw-id='xxx'>[Rolldown postBanner]</tweet-link> <tweet-link tw-id='xxx'>[Angular 用 Rolldown]</tweet-link>\n\n直接输出对应的 Markdown 内容，不要有任何多余废话！",
+    "model": "moonshotai/Kimi-K2-Instruct",
+    "end_point": "https://api.siliconflow.cn/v1/chat/completions",
+    "apikey": "sk-kvtsgajguwoudntybezrwqbepdyfyqgvyfrjegmxvnedfnzq"
+  },
   "tags_info": [
     { "tag_id": "tech", "tag_name": "技术" },
     { "tag_id": "leisure", "tag_name": "休闲" },
