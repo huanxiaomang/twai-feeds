@@ -1,0 +1,23 @@
+{
+  "name": "前端圈",
+  "feed_id": "web",
+  "feed_url": "https://github.com/",
+  "avatar": "https://vuejs.org/images/logo.png",
+  "version": "1.0",
+  "ai_bots": [
+    {
+      "bot_id": "faker",
+      "name": "AI讲师",
+      "avatar": "https://vuejs.org/images/logo.png",
+      "description": "AI Bot 1 description",
+      "prompt": "AI Bot 1 prompt"
+    },
+    {
+      "bot_id": "fucker",
+      "name": "网络喷子",
+      "avatar": "https://vuejs.org/images/logo.png",
+      "description": "AI Bot 1 description",
+      "prompt": "AI Bot 1 prompt"
+    }
+  ]
+}
