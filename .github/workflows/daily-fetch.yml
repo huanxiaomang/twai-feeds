@@ -13,16 +13,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3 # 推荐用最新 v3
+        with:
+          version: 9 # 建议升级到最新版（当前稳定是 9.x）
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "pnpm"
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
+          cache: "pnpm" # 现在安全了，因为 pnpm 已安装
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
