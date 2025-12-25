@@ -1,0 +1,38 @@
+{
+  "d2ff70ed458e7c48a9fc518d9c7bcb18": {
+    "diverge": "**Oxc 进 core** ＝ Rust 速度 × Vue 生态。想想：if 未来所有 JS infra 都走 Rust 化，你的 CI 会快多少？插件生态怎么无缝迁移？有没想过用 Oxc 写自定义 rule，把业务约束直接写进 linter？",
+    "parser": "**Oxc 给 Vue.js 核心仓库提了圣诞 PR**  \n两条补丁已发到 [vuejs/core](https://github.com/vuejs/core/pulls)，节前送温暖 🎄"
+  },
+  "475db90caa7a0eaccf0f8b0e79b4917c": {
+    "diverge": "**oxlint 1.35** 带来 CFG，开启自定义插件「深度静态」时代。关键词：CFG → 跨函数检测、node API → 可嵌入脚手架、RuleTester → 插件单元测试。问问自己：团队里哪些隐晦 bug 可被图算法一击命中？",
+    "parser": "**oxlint v1.35.0 & oxfmt v0.20.0 更新**  \n- 支持自定义插件的控制流分析（CFG）\n- oxfmt 新增 Node.js API\n- 13 条新规则、15+ 规则新选项/自动修复\n- RuleTester 支持 globals 与插件别名\n[升级指南 →](https://github.com/oxc-project/oxc/releases)"
+  },
+  "81e114d176c699ecfb26d9c2b775c2c9": {
+    "diverge": "对 Rust 望而却步？Oxc 的 JS 赛道正好练手。**性能 profiling、AST 序列化、缓存层** 统统缺人。把 Node 优化经验迁移过去，顺便学 Rust 所有权，不写一行 unsafe 也能提速 10×，这样的 OSS 练级场可不多。",
+    "parser": "**Oxc 招 JS 贡献者**  \n不会 Rust 也能玩！纯 JS 侧代码急需优化，[ issue 指路 →](https://github.com/oxc-project/oxc/issues)"
+  },
+  "783008ee55035e9082c23beb081a5e23": {
+    "diverge": "**banner/footer post-minify** 解决了版权注释被 terser 吃掉的痛点。Rollup/Vite 插件从此少一次 hack，还能插入动态 hash、source-map-link。想一想：if 把 SRI 指纹也做进 postBanner，你的子资源安全就自动化了。",
+    "parser": "**Rolldown 新技能：postBanner / postFooter**  \n想在压缩后仍保留版权或调试注释？用新选项即可，内容会在最后阶段插入，不会被精简掉。[在线试玩 →](https://rolldown.rs/repl)"
+  },
+  "87dd186cb5594dda46b75a70c08e434a": {
+    "diverge": "**Vitest × OpenTelemetry** = 看得见的测试慢查询。Span 粒度到「beforeEach」「import 模块」「mount 组件」。关键词：trace-compare 基线、CI 火焰图、性能回归门禁。立刻想：哪条用例最烧钱？可否把长耗时拆 worker？",
+    "parser": "**Vitest 性能调优神器：OpenTelemetry 追踪**  \n开启实验性 OTel 支持，自动生成测试链路图，一眼看出哪一步最慢。[文档 →](https://vitest.dev/guide/opentelemetry.html)"
+  },
+  "7003025698dabedec3138d5b62c52918": {
+    "diverge": "**oxfmt 秒级排版 Tailwind**＝ AST 驱动 class-sort，免正则黑箱。思考：设计系统若改主题前缀，能否一键重写全仓库？再配合「插件化排版策略」，小程序、RN、Uno 都能复用同一套，设计治理突然变简单。",
+    "parser": "**oxfmt 马上要支持 Tailwind CSS 格式化**  \n基于 oxc + prettier-plugin-tailwindcss 同步开发，圣诞惊喜抢先报。[POC 地址 →](https://github.com/oxc-project/oxc/pull/链接)"
+  },
+  "db8869f635624b70f822301f12883cec": {
+    "diverge": "**Rolldown 原生支持 esbuild define/inject** → 零插件打补丁。秒替换 `process.env`、全局 `Buffer`，还顺带 tree-shaking。想再深：if 把 i18n key 也 define 成 hash，能否让包体积随语言动态消失？"
+  },
+  "fc642a1710611877cef7eb7d08255ee1": {
+    "parser": "**VueConf US 早鸟票**  \n圣诞礼物别只买盒子，送自己一张技术大会门票：3 天 Vue / Nuxt 干货+社交。[立即购票 →](https://vueconf.us)"
+  },
+  "82d2755db68abb25b87ff591b4d3bad2": {
+    "parser": "**Vue Language Tools 3.2 发布**  \n新版说明戳这里 👉 [Release Notes](https://github.com/vuejs/language-tools/releases)"
+  },
+  "6a4b449867495e531f6d51b4b8b827c8": {
+    "parser": "**Rolldphobia：浏览器里的 Bundlephobia**  \n纯前端计算包体积，背后是 Rolldown + esm.sh 。[立即体验 →](https://rolldphobia.ssssota.dev)"
+  }
+}
