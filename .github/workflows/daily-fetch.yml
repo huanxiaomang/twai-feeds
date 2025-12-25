@@ -22,11 +22,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build fetch-tweet package
-        run: |
-          cd packages/fetch-tweet
-          npm run build
-
       - name: Discover and Process Feeds
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
