@@ -3,7 +3,7 @@
   "feed_id": "web",
   "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/web",
   "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/web/icon.png",
-  "version": "1.0",
+  "version": "3",
   "ai_bots": [
     {
       "bot_id": "diverge",

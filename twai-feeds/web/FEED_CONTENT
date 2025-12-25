@@ -3,7 +3,7 @@
   "feed_id": "web",
   "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/web",
   "avatar": "https://vuejs.org/images/logo.png",
-  "version": "1.1",
+  "version": "3",
   "ai_bots": [
     {
       "bot_id": "diverge",
@@ -24,14 +24,14 @@
     {
       "tw_id": "7e8066317608fbb0d458f0bb72a7a29b",
       "url": "https://x.com/boshen_c/status/2001878127228891251",
-      "title": "香草泥",
+      "title": "香草泥121323",
       "content": "In the l",
       "originText": "In the latest version of Oxfmt (better prettier replacement):\n\n• oxfmt --migrate prettier\n• oxfmit --init\n• oxfmt --stdin-filepath for pipe usage\n• Node.js API\n• Sort package.json fields by default\n• Respect root .editorconfig\n\nGive it a try:\n\n• https://t.co/O68UNpWalD",
       "date_published": "2025-12-19T04:51:00.000Z",
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -53,7 +53,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -80,7 +80,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -102,7 +102,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -124,7 +124,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -151,7 +151,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -178,7 +178,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -205,7 +205,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -232,7 +232,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -259,7 +259,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -286,7 +286,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -313,7 +313,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -335,7 +335,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -357,7 +357,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -384,7 +384,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -411,7 +411,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -438,7 +438,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -460,7 +460,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -487,7 +487,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -514,7 +514,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -541,7 +541,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -568,7 +568,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -595,7 +595,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -622,7 +622,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
@@ -649,7 +649,7 @@
       "author": {
         "author_id": "@youyuxi",
         "author_name": "youyuxi",
-        "author_favicon": "https://pbs.twimg.com/profile_images/1856284397072478208/hSEXLkPN_400x400.jpg"
+        "author_favicon": "https://unavatar.io/x/youyuxi"
       },
       "authors": [
         {
