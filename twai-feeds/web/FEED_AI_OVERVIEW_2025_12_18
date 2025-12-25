@@ -1,3 +1,0 @@
-{
-  "2025-12-18": "## 🐈 12 月 18 日前端快览\n\n### Rolldown 动态\n- 🚀 新增 `postBanner` / `postFooter`，追加内容在压缩后才插入，注释不再被误杀 <tweet-link tw-id='783008ee55035e9082c23beb081a5e23'>新功能</tweet-link>\n- Angular CLI 已切到 Rolldown，性能党狂喜 <tweet-link tw-id='ef90c42594eb507d735671ed90f7bb46'>换引擎</tweet-link>\n\n### 网络拯救计划\n- Jared Palmer 刚救完 GitHub，Sunil 在线催更：npm 也救救呗 <tweet-link tw-id='212a789daef1c79404fa4e1a7951c334'>求带飞</tweet-link>\n\n### 彩蛋\n- 今日推上出现「粗/深/金金乱颤」神秘代码，懂的都懂 <tweet-link tw-id='06e255204e88c6fd60a86256645e68fe'>(°▽°)</tweet-link>\n\n12 月 18 日的概况就是这些喵～"
-}
