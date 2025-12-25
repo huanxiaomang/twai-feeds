@@ -2,8 +2,9 @@ name: Daily Feed Fetch
 
 on:
   schedule:
-    - cron: "0 19 * * *" # 3:00 AM CST (UTC+8) is 19:00 UTC previous day
-  workflow_dispatch:
+    # 每天 UTC 19:00 执行 → 对应香港/北京时间次日凌晨 3:00（即处理“昨天”的数据）
+    - cron: "0 19 * * *"
+  workflow_dispatch: # 支持手动触发，用于测试
 
 jobs:
   fetch-and-process:
@@ -13,32 +14,38 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # 第一步：先安装 pnpm（关键！必须在 setup-node 之前）
       - name: Install pnpm
-        uses: pnpm/action-setup@v3 # 推荐用最新 v3
+        uses: pnpm/action-setup@v3
         with:
-          version: 9 # 建议升级到最新版（当前稳定是 9.x）
+          version: 9 # 推荐使用最新版，更好兼容 Node 20
+          run_install: false # 不在这里自动安装依赖
 
+      # 第二步：设置 Node.js 并启用 pnpm 缓存（加速后续运行）
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "pnpm" # 现在安全了，因为 pnpm 已安装
+          cache: "pnpm" # 缓存 node_modules，大幅提速
 
+      # 安装项目依赖
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      # 构建 fetch-tweet 包（如果需要）
       - name: Build fetch-tweet package
         run: |
           cd packages/fetch-tweet
           pnpm build
 
+      # 发现并处理所有 feeds
       - name: Discover and Process Feeds
         env:
           AI_ENDPOINT: ${{ secrets.AI_ENDPOINT }}
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
         run: |
-          # Discover all feed directories
+          # 遍历 twai-feeds 下的所有子目录
           for feed_dir in twai-feeds/*/; do
             if [ -d "$feed_dir" ]; then
               feed_id=$(basename "$feed_dir")
@@ -51,11 +58,11 @@ jobs:
                 echo "Output: $feed_dir"
                 echo "========================================="
 
-                # Set environment variables for this feed
+                # 为当前 feed 设置环境变量
                 export FEED_CONFIG_PATH="$config_path"
                 export OUTPUT_DIR="$feed_dir"
 
-                # Run the fetch script
+                # 执行主脚本
                 node scripts/index.mjs
 
                 echo "Completed processing feed: $feed_id"
@@ -66,10 +73,19 @@ jobs:
             fi
           done
 
+      # 提交并推送更新到仓库
       - name: Commit and Push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add twai-feeds/*/config.json twai-feeds/*/FEED_CONTENT twai-feeds/*/FEED_AI_BOT twai-feeds/*/FEED_AI_OVERVIEW_*
+
+          git add twai-feeds/*/config.json \
+                  twai-feeds/*/FEED_CONTENT \
+                  twai-feeds/*/FEED_AI_BOT \
+                  twai-feeds/*/FEED_AI_OVERVIEW_*
+
           git commit -m "chore: update feed content [skip ci]" || echo "No changes to commit"
-          git push
+
+          git push origin HEAD:main  # 明确指定分支，避免意外
+        # 只在有实际更改时才执行 push（可选增强）
+        if: success()
