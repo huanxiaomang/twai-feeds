@@ -1,0 +1,545 @@
+{
+  "name": "前端圈",
+  "feed_id": "web",
+  "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/web",
+  "avatar": "https://vuejs.org/images/logo.png",
+  "version": "1.0",
+  "ai_bots": [
+    {
+      "bot_id": "faker",
+      "name": "AI讲师",
+      "avatar": "https://vuejs.org/images/logo.png",
+      "description": "AI Bot 1 description",
+      "prompt": "AI Bot 1 prompt"
+    },
+    {
+      "bot_id": "fucker",
+      "name": "网络喷子",
+      "avatar": "https://vuejs.org/images/logo.png",
+      "description": "AI Bot 1 description",
+      "prompt": "AI Bot 1 prompt"
+    }
+  ],
+  "list": [
+    {
+      "tw_id": "7e8066317608fbb0d458f0bb72a7a29b",
+      "url": "https://x.com/boshen_c/status/2001878127228891251",
+      "title": "香草泥",
+      "content": "In the l",
+      "originText": "In the latest version of Oxfmt (better prettier replacement):\n\n• oxfmt --migrate prettier\n• oxfmit --init\n• oxfmt --stdin-filepath for pipe usage\n• Node.js API\n• Sort package.json fields by default\n• Respect root .editorconfig\n\nGive it a try:\n\n• https://t.co/O68UNpWalD",
+      "date_published": "2025-12-19T04:51:00.000Z",
+      "authors": [
+        {
+          "name": "@boshen_c"
+        }
+      ],
+      "media": [],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "783008ee55035e9082c23beb081a5e23",
+      "url": "https://x.com/voidzerodev/status/2001683010446299613",
+      "title": "香草泥",
+      "content": "Want to append or prepend content to your files? Then you can use `postBanner` and `postFooter` in @rolldown_rs now!\n\nThe difference to `banner` and `footer`: The content will be added AFTER minification, making sure that comments are not removed\n\nTry it in our REPL… pic.twitter.com/qRjoClkaBz— VoidZero (@voidzerodev) December 18, 2025\n",
+      "originText": "Want to append or prepend content to your files? Then you can use `postBanner` and `postFooter` in @rolldown_rs now!\n\nThe difference to `banner` and `footer`: The content will be added AFTER minification...",
+      "date_published": "2025-12-18T15:56:00.000Z",
+      "authors": [
+        {
+          "name": "@voidzerodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/G8doFvLWUAA9P9t.jpg?name=small&format=webp",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "212a789daef1c79404fa4e1a7951c334",
+      "url": "https://x.com/threepointone/status/2001671800053469478",
+      "title": "香草泥",
+      "content": "@jaredpalmer as part of saving github, could you also save npm? :) please and thank you from the internet.— sunil pai (@threepointone) December 18, 2025\n",
+      "originText": "@jaredpalmer as part of saving github, could you also save npm? :) please and thank you from the internet.",
+      "date_published": "2025-12-18T15:12:00.000Z",
+      "authors": [
+        {
+          "name": "@threepointone"
+        }
+      ],
+      "media": [],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "ef90c42594eb507d735671ed90f7bb46",
+      "url": "https://x.com/boshen_c/status/2001670828996669760",
+      "title": "香草泥",
+      "content": "Do I know anyone who uses the angular CLI with NG_BUILD_OPTIMIZE_CHUNKS? It was previously using Rollup and now Rolldown.— Boshen (@boshen_c) December 18, 2025\n",
+      "originText": "Do I know anyone who uses the angular CLI with NG_BUILD_OPTIMIZE_CHUNKS? It was previously using Rollup and now Rolldown.",
+      "date_published": "2025-12-18T15:08:00.000Z",
+      "authors": [
+        {
+          "name": "@boshen_c"
+        }
+      ],
+      "media": [],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "87dd186cb5594dda46b75a70c08e434a",
+      "url": "https://x.com/voidzerodev/status/2001342848898068784",
+      "title": "香草泥",
+      "content": "Want to understand why some of your @vitest_dev tests are slower than expected? Then you can use the built-in experimental @OpenTelemetry support to figure out what makes tests slow and how much time is spent on each part of it. 📈 \n\nWhen enabled, Vitest will generate traces… pic.twitter.com/Jyz5if6Mjf— VoidZero (@voidzerodev) December 17, 2025\n",
+      "originText": "Want to understand why some of your @vitest_dev tests are slower than expected? Then you can use the built-in experimental @OpenTelemetry support...",
+      "date_published": "2025-12-17T17:24:00.000Z",
+      "authors": [
+        {
+          "name": "@voidzerodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/G8Yyts4XIAAylGf.jpg?name=small&format=webp",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "fdb60dfd9d294105ae5dc6c76366571e",
+      "url": "https://x.com/Atinux/status/2001337705050058822",
+      "title": "香草泥",
+      "content": "Did we mention that you can also use it on a Vite + Vue project? https://t.co/kZf4Cbvew2— Sébastien Chopin (@Atinux) December 17, 2025\n",
+      "originText": "Did we mention that you can also use it on a Vite + Vue project? https://t.co/kZf4Cbvew2",
+      "date_published": "2025-12-17T17:04:00.000Z",
+      "authors": [
+        {
+          "name": "@Atinux"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2001320239263268864/img/4oNlfCTBDbSW0HJp.jpg",
+          "type": "video"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "285aa74d9f96802c4abec6d1d52185bf",
+      "url": "https://x.com/youyuxi/status/2001265098984476808",
+      "title": "香草泥",
+      "content": "Had to answer this multiple times already, but yes this is how it was picked :)— Evan You (@youyuxi) Dec 17, 2025",
+      "originText": "Had to answer this multiple times already, but yes this is how it was picked :)",
+      "date_published": "2025-12-17T12:15:00.000Z",
+      "authors": [
+        {
+          "name": "@youyuxi"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2000957603199774721/img/97r6NOggzXvzCWYh.jpg",
+          "type": "video"
+        }
+      ],
+      "is_rt": false,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "7003025698dabedec3138d5b62c52918",
+      "url": "https://x.com/boshen_c/status/2001221950216266185",
+      "title": "香草泥",
+      "content": "Tailwind CSS is coming early in oxfmt! 🎅\n\nThe POC it based on was me telling Claude to work on two codebases simultaneously - oxc and prettier-plugin-tailwindcss.https://t.co/Om9Em2JSgX— Boshen (@boshen_c) December 17, 2025\n",
+      "originText": "Tailwind CSS is coming early in oxfmt! 🎅\n\nThe POC it based on was me telling Claude to work on two codebases simultaneously...",
+      "date_published": "2025-12-17T09:24:00.000Z",
+      "authors": [
+        {
+          "name": "@boshen_c"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/card_img/2001221954209304576/NM6Lt4s0?format=jpg&name=800x419",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "a08baeb3270cebd7bc3d614aecb63557",
+      "url": "https://x.com/cityjsconf/status/2001133594815648205",
+      "title": "香草泥",
+      "content": "CityJS Conference is back in #Singapore! Join 20 speakers including @youyuxi, @coderkungfu free workshops, free meetups, and a full day exploring the latest trends in JavaScript and AI. Learn, connect, and level up your skills. \n\nGet your tickets now!https://t.co/faaVtt4rtS pic.twitter.com/xllxuLUDoN— CityJS Conferences (@cityjsconf) December 17, 2025\n",
+      "originText": "CityJS Conference is back in #Singapore! Join 20 speakers including @youyuxi, @coderkungfu free workshops...",
+      "date_published": "2025-12-17T03:33:00.000Z",
+      "authors": [
+        {
+          "name": "@cityjsconf"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2001133559327682560/pu/img/ofXHZ07ZUBHRoIO0.jpg",
+          "type": "video"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "6a4b449867495e531f6d51b4b8b827c8",
+      "url": "https://x.com/serkodev/status/2000974800085508112",
+      "title": "香草泥",
+      "content": "In the next update of @vuejs language tools, we're shipping a brand-new Rich Hover Message feature ✨\nHover any Vue component to see beautifully formatted Props & Slots, all auto-generated.\nBuilt to bring your DX to the next level 🚀 More details coming soon, stay tuned! 👀 pic.twitter.com/JnbmfhLr51— SerKo (@serkodev) December 16, 2025\n",
+      "originText": "In the next update of @vuejs language tools, we're shipping a brand-new Rich Hover Message feature ✨\nHover any Vue component...",
+      "date_published": "2025-12-16T17:02:00.000Z",
+      "authors": [
+        {
+          "name": "@serkodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2000974502415753219/img/1n1NbNuOgqLw5SVj.jpg",
+          "type": "video"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "db8869f635624b70f822301f12883cec",
+      "url": "https://x.com/voidzerodev/status/2000959462538912162",
+      "title": "香草泥",
+      "content": "Yes, @rolldown_rs is supporting Rollup's plugin API which is also the base of @vite_js plugins. But did you know that Rolldown also aligns with certain features from esbuild natively?\n\nIn turn, you can use `define` and `inject` without any extra plugins. Just define them via your…— VoidZero (@voidzerodev) December 16, 2025\n",
+      "originText": "Yes, @rolldown_rs is supporting Rollup's plugin API which is also the base of @vite_js plugins. But did you know that Rolldown also aligns...",
+      "date_published": "2025-12-16T16:01:00.000Z",
+      "authors": [
+        {
+          "name": "@voidzerodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/card_img/1999110434100559872/QM1n4mXs?format=png&name=800x419",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "bd538e246896dcf45ea368bf798b1785",
+      "url": "https://x.com/Cameron_C2/status/2000540121586647082",
+      "title": "香草泥",
+      "content": "Oxlint v1.33.0 & oxfmt v0.18.0 are out! 🚀\n\n→ 14 new rules!\n→ RuleTester enhancements for custom plugins\n→ lots of formatter CLI!\n→ package.json sorting\n→ `quoteProps` support\n→ 11 perf improvements!\n→ 10 formatter & 16 linter fixes!\n→ more doc improvements!— Cam (@Cameron_C2) December 15, 2025\n",
+      "originText": "Oxlint v1.33.0 & oxfmt v0.18.0 are out! 🚀\n\n→ 14 new rules!\n→ RuleTester enhancements for custom plugins\n→ lots of formatter CLI!...",
+      "date_published": "2025-12-15T12:15:00.000Z",
+      "authors": [
+        {
+          "name": "@Cameron_C2"
+        }
+      ],
+      "media": [],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "c45b52001ec2faf4365b8fa29da57be5",
+      "url": "https://x.com/youyuxi/status/2000369778113024046",
+      "title": "香草泥",
+      "content": "This is cool:\n\nrolldphobia.ssssota.dev/\n\nBundlephopia but powered by Rolldown and esm.sh and runs entirely in your browser!\n\nby @ssssotaro— Evan You (@youyuxi) Dec 15, 2025",
+      "originText": "This is cool:\n\nrolldphobia.ssssota.dev/\n\nBundlephopia but powered by Rolldown and esm.sh and runs entirely in your browser!\n\nby @ssssotaro",
+      "date_published": "2025-12-15T00:58:00.000Z",
+      "authors": [
+        {
+          "name": "@youyuxi"
+        }
+      ],
+      "media": [],
+      "is_rt": false,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "6ffbfa0b1ce6879a225b45486ad0024e",
+      "url": "https://x.com/Cameron_C2/status/1999829905635201112",
+      "title": "香草泥",
+      "content": "Want to write your own JS plugin for oxlint? Here's how! 🚀 pic.twitter.com/6O484VTfCG— Cam (@Cameron_C2) December 13, 2025\n",
+      "originText": "Want to write your own JS plugin for oxlint? Here's how! 🚀 pic.twitter.com/6O484VTfCG",
+      "date_published": "2025-12-13T13:12:00.000Z",
+      "authors": [
+        {
+          "name": "@Cameron_C2"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/G8DR1BcW0AQIQ3i.jpg?name=small&format=webp",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "409b9369a172cfb9c620554cd2e532f3",
+      "url": "https://x.com/TheAlexLichter/status/1999590719623741714",
+      "title": "香草泥",
+      "content": "I had to show that feature in action and tell something about Hook Filters. The best is that it works framework-agnostic and gives great indicators without being a profiling pro.\n\nIt already helped improving perf in @nuxt_js. More to come.\n\nVideo up now on my YouTube channel 👀 https://t.co/3ELWQA5kow pic.twitter.com/yg6uOmttZp— Alexander Lichter (@TheAlexLichter) December 12, 2025\n",
+      "originText": "I had to show that feature in action and tell something about Hook Filters. The best is that it works framework-agnostic...",
+      "date_published": "2025-12-12T21:22:00.000Z",
+      "authors": [
+        {
+          "name": "@TheAlexLichter"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/G7_48bcXAAQk0PD.jpg?name=small&format=webp",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "22e41693efef9344278265beccbfd3ef",
+      "url": "https://x.com/youyuxi/status/1999324546160296269",
+      "title": "香草泥",
+      "content": "So many fine details improvements in Vue language-tools happening - @serkodev and @johnsoncodehk are doing a fantastic job!— Evan You (@youyuxi) Dec 12, 2025",
+      "originText": "So many fine details improvements in Vue language-tools happening - @serkodev and @johnsoncodehk are doing a fantastic job!",
+      "date_published": "2025-12-12T03:44:00.000Z",
+      "authors": [
+        {
+          "name": "@youyuxi"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/G75Zuq4bsAE77pz.jpg?name=small&format=webp",
+          "type": "image"
+        }
+      ],
+      "is_rt": false,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "0d01cc91ebe89345feb2f3489e8c3e05",
+      "url": "https://x.com/reactjs/status/1999217365628903739",
+      "title": "香草泥",
+      "content": "Researchers have found two new vulnerabilities in React Server Components while attempting to exploit the patches last week.\n\nThese are new issues, separate from the critical CVE last week. The patch for React2Shell remains effective for the Remote Code Execution exploit.— React (@reactjs) December 11, 2025\n",
+      "originText": "Researchers have found two new vulnerabilities in React Server Components while attempting to exploit the patches last week.\n\nThese are new issues...",
+      "date_published": "2025-12-11T20:38:00.000Z",
+      "authors": [
+        {
+          "name": "@reactjs"
+        }
+      ],
+      "media": [],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "a06715d7853c15bb688c061e2d84907d",
+      "url": "https://x.com/voidzerodev/status/1999207444296171982",
+      "title": "香草泥",
+      "content": "✨ Hot from the release press: When using @rolldown_rs and experiencing a slow build, you now see which plugins slow your build down!\n\nNote that the reported time is an indication and includes overhead such as Rust-side processing, async scheduling, NAPI data conversion, and… pic.twitter.com/unJvXUaVkj— VoidZero (@voidzerodev) December 11, 2025\n",
+      "originText": "✨ Hot from the release press: When using @rolldown_rs and experiencing a slow build, you now see which plugins slow your build down!...",
+      "date_published": "2025-12-11T19:59:00.000Z",
+      "authors": [
+        {
+          "name": "@voidzerodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/G76ck2lX0AA7jAF.jpg?name=small&format=webp",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "8af88579505ef75893b8b5a0bd084dcd",
+      "url": "https://x.com/voidzerodev/status/1998846844537901499",
+      "title": "香草泥",
+      "content": "You can now break down import and transform times in @vitest_dev! This works in the Vitest UI, the terminal and also via the VS Code extension.\n\nTime to find out why tests are taking longer than expected! 👀\n\nMore in the docshttps://t.co/YH7nNb1cLx pic.twitter.com/ZeJa3e2N8t— VoidZero (@voidzerodev) December 10, 2025\n",
+      "originText": "You can now break down import and transform times in @vitest_dev! This works in the Vitest UI, the terminal...",
+      "date_published": "2025-12-10T20:06:00.000Z",
+      "authors": [
+        {
+          "name": "@voidzerodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/G71UnK1WwAAVp9x.jpg?name=small&format=webp",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "c986187e3ec51d00429a5917a25aa136",
+      "url": "https://x.com/vueconfus/status/1998802423234609446",
+      "title": "香草泥",
+      "content": "Early bird tickets for VueConf US end December 14! ✨\n\nLearn straight from @youyuxi and core @vuejs team, discover new Vue features, join advanced workshops, and connect with devs building the future of the ecosystem. \n\nGrab your discounted ticket now!\n🎟️ https://t.co/g1GIE1wHnw pic.twitter.com/cm0GCgmeu8— Vueconf.US (@vueconfus) December 10, 2025\n",
+      "originText": "Early bird tickets for VueConf US end December 14! ✨\n\nLearn straight from @youyuxi and core @vuejs team...",
+      "date_published": "2025-12-10T17:10:00.000Z",
+      "authors": [
+        {
+          "name": "@vueconfus"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/1998801193745760256/pu/img/WmxLl1HKgxVm1WgK.jpg",
+          "type": "video"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "755dec9f92769f4314a8edb2453c3e28",
+      "url": "https://x.com/boshen_c/status/1998745639891644918",
+      "title": "香草泥",
+      "content": "oxlint --type-check -> sanityhttps://t.co/Hp2hAcdBXh— Boshen (@boshen_c) December 10, 2025\n",
+      "originText": "oxlint --type-check -> sanityhttps://t.co/Hp2hAcdBXh",
+      "date_published": "2025-12-10T13:24:00.000Z",
+      "authors": [
+        {
+          "name": "@boshen_c"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/card_img/2001286319570382848/yQiUNh3M?format=jpg&name=800x419",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "00e98d5afc44a26f3f86335fb9b62414",
+      "url": "https://x.com/CFchangelog/status/1998701931087425947",
+      "title": "香草泥",
+      "content": "Deploy static sites with Cloudflare Workers & Vite just got easier! 🎉 No more mandatory Wrangler config needed – the Vite plugin now generates defaults. Streamline your workflow! 🚀 SPAs still need that `assets.not_found_handling` setting. 😉https://t.co/ZSgIuvmNjW— Cloudflare Changelog (@CFchangelog) December 10, 2025\n",
+      "originText": "Deploy static sites with Cloudflare Workers & Vite just got easier! 🎉 No more mandatory Wrangler config needed...",
+      "date_published": "2025-12-10T10:30:00.000Z",
+      "authors": [
+        {
+          "name": "@CFchangelog"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/card_img/2001238794507575297/21bSuISV?format=jpg&name=800x419",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "ca073f2580af5bf29749e9ad7c067885",
+      "url": "https://x.com/serkodev/status/1998342118364828159",
+      "title": "香草泥",
+      "content": "the latest @vuejs language tools now support \"Format Selection\" in VS Code ✨ you can format only the parts of your code you want! pic.twitter.com/dp3f14Z1bn— SerKo (@serkodev) December 9, 2025\n",
+      "originText": "the latest @vuejs language tools now support \"Format Selection\" in VS Code ✨ you can format only the parts of your code you want!",
+      "date_published": "2025-12-09T10:41:00.000Z",
+      "authors": [
+        {
+          "name": "@serkodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/amplify_video_thumb/1998340029723332608/img/5_hs-okc_4moXa87.jpg",
+          "type": "video"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "a71a0d1a4614f5abf595acdd7f054ab8",
+      "url": "https://x.com/voidzerodev/status/1998089757318865092",
+      "title": "香草泥",
+      "content": "Announcing Oxlint Type-Aware Linting Alpha 🎁\n\nJust a few months after our technical preview, type-aware linting reaches the alpha milestone!\n\n✨ Type-aware rules can now be configured\n🙈 Inline comments to disable rules work for type-aware rules too\n✔ Auto fixes for type-aware…— VoidZero (@voidzerodev) December 8, 2025\n",
+      "originText": "Announcing Oxlint Type-Aware Linting Alpha 🎁\n\nJust a few months after our technical preview, type-aware linting reaches the alpha milestone!...",
+      "date_published": "2025-12-08T17:58:00.000Z",
+      "authors": [
+        {
+          "name": "@voidzerodev"
+        }
+      ],
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/card_img/2000626557249896448/vMahB6mu?format=jpg&name=800x419",
+          "type": "image"
+        }
+      ],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    },
+    {
+      "tw_id": "8c8b4201e1c2ee88062d2e84001210d7",
+      "url": "https://x.com/Cameron_C2/status/1998043127802953814",
+      "title": "香草泥",
+      "content": "Oxlint v1.32.0 & oxfmt v1.17.0 are out! 🚀\n\n→ new rule: eslint/no-useless-return\n→ globals support for custom plugins\n→ fix support for type aware rules\n→ 7x formatter bug fixes\n→ 30+ linter bug fixes— Cam (@Cameron_C2) December 8, 2025\n",
+      "originText": "Oxlint v1.32.0 & oxfmt v1.17.0 are out! 🚀\n\n→ new rule: eslint/no-useless-return\n→ globals support for custom plugins...",
+      "date_published": "2025-12-08T14:52:00.000Z",
+      "authors": [
+        {
+          "name": "@Cameron_C2"
+        }
+      ],
+      "media": [],
+      "is_rt": true,
+      "is_translated": false,
+      "tags": ["tech"]
+    }
+  ],
+  "tags_info": [
+    { "tag_id": "tech", "tag_name": "技术" },
+    { "tag_id": "leisure", "tag_name": "休闲" },
+    { "tag_id": "food", "tag_name": "美食" }
+  ]
+}
