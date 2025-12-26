@@ -6,7 +6,7 @@
   "version": "12",
   "rss_urls": ["https://rss.app/feeds/v1.1/6v2BRs0V0L4WYeBH.json"],
   "batch_size": 20,
-  "max_concurrent": 5,
+  "max_concurrent": 3,
   "no_batch": false,
   "ai_bots": [
     {
