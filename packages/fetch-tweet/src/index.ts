@@ -464,7 +464,6 @@ if (process.argv[1] === import.meta.url || process.argv[1]?.endsWith('index.ts')
             // 3. Output Handling
             const outputDir = process.env.OUTPUT_DIR ? path.resolve(process.cwd(), process.env.OUTPUT_DIR) : path.resolve(process.cwd(), 'cache');
             await fs.mkdir(outputDir, { recursive: true });
-            console.log('outputDir: ', outputDir)
 
             // Helper function for compression
             const compressData = (data: string): Promise<Uint8Array> => {
