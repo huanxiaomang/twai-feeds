@@ -458,13 +458,23 @@ if (process.argv[1] === import.meta.url || process.argv[1]?.endsWith('index.ts')
             };
 
             // 2. Execution
-            const res = await fetchAndFormat(options);
-            const [feed, feed_item_ai_bots_content] = res;
+            // const res = await fetchAndFormat(options);
+            // const [feed, feed_item_ai_bots_content] = res;
 
             // 3. Output Handling
             const outputDir = process.env.OUTPUT_DIR ? path.resolve(process.cwd(), process.env.OUTPUT_DIR) : path.resolve(process.cwd(), 'cache');
             await fs.mkdir(outputDir, { recursive: true });
-            console.log(outputDir)
+            console.log('outputDir: ', outputDir)
+            console.log('env outputDir: ', process.env.OUTPUT_DIR)
+            console.log('over outputDir: ', path.resolve(process.cwd(), process.env.OUTPUT_DIR))
+
+            console.log('OUTPUT_DIR path:', outputDir, '\nParent dir contents:', await fs.readdir(path.dirname(outputDir)));
+
+            console.log(outputDir);
+            const resolvedOutputDir = path.resolve(process.cwd(), process.env.OUTPUT_DIR || 'cache');
+            console.log(`Resolved OUTPUT_DIR: ${resolvedOutputDir}`);
+
+            console.log('OUTPUT_DIR:', outputDir, '→ contents:', (await fs.readdir(outputDir).catch(() => '[]')), ' | Parent dir:', path.dirname(outputDir), '→ contents:', (await fs.readdir(path.dirname(outputDir)).catch(() => '[]')));
 
             // Helper function for compression
             const compressData = (data: string): Promise<Uint8Array> => {
