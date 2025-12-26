@@ -454,6 +454,7 @@ if (process.argv[1] === import.meta.url || process.argv[1]?.endsWith('index.ts')
                 apikey: process.env.AI_API_KEY!,
                 batch_size: config.batch_size || 20,
                 max_concurrent: config.max_concurrent || 5,
+                no_batch: config.no_batch || false
             };
 
             // 2. Execution
