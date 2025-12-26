@@ -94,3 +94,159 @@ Prompt: 看不懂贴文，解释一下，要通俗易懂一些，可以灵活使
 }]}</AIBOT>推文内容：发疯时刻！啊啊啊啊啊我真的想被这样对待！...
 Result: <AIBOT>{"data":[{"tw_id":"原推ID缺失","md":"**通俗翻译**<br>“我崩溃了！我就是想被人这么狠狠地宠/虐！”<br>👉 帖主在发泄情绪，表达一种渴望被特定方式对待的冲动，类似“我疯了，快来这样对我！”的超激动状态。"}]}</AIBOT>...
 --------------------------------------------------
+[2025-12-26T07:01:56.053Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"9774dc419239c91596b06bc58fa35c61","content":"\"use a = 1\";\n\"use if a == 1\";\n\"use console log with a\";"},{"tw_id":"f37d7402c74829cf7641ebcd49b5e89d","content":"Honoured to have met some of the open source/web heroes last night in Tokyo🗼❤️ pic.twitter.com/Y1AGbkZuUk— alistair (@alistaiir) October 23, 2025"},{"tw_id":"ebcd3883c1a2e1893fc235f84b7c5901","content":"met my teenage open source hero today @antfu7 pic.twitter.com/ePXvVg4iCd— Aiden Bai (@aidenybai) October 23, 2025"},{"tw_id":"06811e3a177eeb299c49dda8439d8621","content":"Vitest 4 is out!\n\n- Browser Mode is Stable\n- Visual Regression Testing\n- Improved Debugging\n- Pool Sta
+--------------------------------------------------
+[2025-12-26T07:01:58.612Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"251c0859883b66e9388e914ead16ed69","content":"RT  @hd_nvim: Real  @antfu7 at  @SquiggleConf 😍"},{"tw_id":"2f1f5d9fdd8f4474fbf322554ed3bbd5","content":"Real @antfu7 at @SquiggleConf 😍 pic.twitter.com/Oy9mcn36Ki— Herrington Darkholme (@hd_nvim) September 18, 2025"}]
+--------------------------------------------------
+[2025-12-26T07:03:50.760Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"e34a2078a2d9823fe501b074ef13cd71","content":"If you want to watch me talk through this, or some of the other drawings, I gave a keynote recently, starts at that breakpoint\n\nyoutu.be/tGnv1ENzPmQ?si=Wk1c…"},{"tw_id":"24031f0f9b0044181d7f61e3fb26f882","content":"💥 Yesterday I posted how rendering works on web, here's a small breakdown on how it works on Android for those who want to compare and contrast across platforms.\n\nOne interesting thing to note- you can see that this is different from the web- in Android, you participate in the measure and layout pass at the same abstraction level as the framework."},{"tw_id":"6fc32b7ed257bfcce52bb
+--------------------------------------------------
+[2025-12-26T07:03:52.062Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"3a77688856978cd7cd2c94bc864ae91d","content":"pic.twitter.com/BxLCEm11Pk— Sarah Drasner (@sarah_edo) November 6, 2024"},{"tw_id":"183566497a1227fedc40bab282390f48","content":"🚀One of my favorite @antigravity use cases:\n\nAsking the agent to go to a website and identify an arbitrary number of user journeys, then asking for it to make a tutorial for all of them (screenshots and instructions). It's effectively a fast path for QA testing and creating… pic.twitter.com/wfqNlO2lKq— 👩‍💻 Paige Bailey (@DynamicWebPaige) December 22, 2025"},{"tw_id":"23d48ea35323d89729aeb24c91342e60","content":"Brilliant post on using coding agents.\n\nThe workflow
+--------------------------------------------------
+[2025-12-26T07:03:52.096Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"dbaff8404f38cc6dcaced1e9b912d9bd","content":"Vibe-coding is not the same as AI-Assisted engineering.\n\nA recent Reddit post described how a FAANG team uses AI and it sparked an important conversation about semantics: \"vibe coding\" and professional \"AI-assisted engineering\". While the post was framed as an example of the former, the process it detailed - complete with technical design documents, stringent code reviews, and test-driven development - is a clear example of the latter imo.\n\nThis distinction is critical because conflating the two risks both devaluing the discipline of engineering and giving newcomers a dangerously incomple
+--------------------------------------------------
+[2025-12-26T07:03:52.322Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"aa1fb04b67ef2c3d76c6f461532c3e19","content":"今天，我▇▇▇▇ ▇▇▇ ▇▇▇▇ ▇▇▇▇▇▇▇ ▇▇▇▇▇▇ ▇▇▇▇▇ ▇▇▇。 ▇▇▇▇▇ ▇▇▇ ▇▇▇▇▇▇▇ ▇▇！"},{"tw_id":"e322f10f307dcc5e6dccbdd16b1e60c8","content":"感觉把一群人整破防了"}]
+--------------------------------------------------
