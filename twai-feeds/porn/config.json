@@ -1,0 +1,23 @@
+{
+  "name": "涩涩",
+  "feed_id": "porn",
+  "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/porn",
+  "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/porn/icon.png",
+  "version": "1",
+  "rss_urls": [
+    "https://rss.app/feeds/v1.1/vYwDexpqaM2t83HU.json",
+    "https://rss.app/feeds/v1.1/PijnLZWyYgMNg7S9.json",
+    "https://rss.app/feeds/v1.1/ly5vmgpEGJ9re2wo.json",
+    "https://rss.app/feeds/v1.1/Wut1HNg9xwSYP7qY.json",
+    "https://rss.app/feeds/v1.1/AjDityYzBb4cZkZf.json",
+    "https://rss.app/feeds/v1.1/RYIFzLdLgGbw9jIp.json",
+    "https://rss.app/feeds/v1.1/W6Q08VVRViUvhbDh.json"
+  ],
+  "batch_size": 20,
+  "max_concurrent": 3,
+  "no_batch": true,
+  "enable_translation": false,
+  "enable_tags": false,
+  "enable_overview": false,
+  "ai_bots": []
+}

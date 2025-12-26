@@ -1,0 +1,26 @@
+{
+  "name": "美图",
+  "feed_id": "sex",
+  "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/sex",
+  "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/sex/icon.png",
+  "version": "1",
+  "rss_urls": [
+    "https://rss.app/feeds/v1.1/m9zIliNcPrBrrqpE.json",
+    "https://rss.app/feeds/v1.1/VFJiqvnZac5H2r4B.json",
+    "https://rss.app/feeds/v1.1/SDJDpg14qqgHANeQ.json",
+    "https://rss.app/feeds/v1.1/6sZFKqKXGfU1v7Nj.json",
+    "https://rss.app/feeds/v1.1/6wAtljyGW6Qd7xNw.json",
+    "https://rss.app/feeds/v1.1/bp3Ap4Qtr9WZ3KtZ.json",
+    "https://rss.app/feeds/v1.1/YJvwPTV3janoScvf.json",
+    "https://rss.app/feeds/v1.1/4FGYmOOC9SPwC7sW.json",
+    "https://rss.app/feeds/v1.1/weMiFVWr5tVBkTYN.json",
+    "https://rss.app/feeds/v1.150vkVTjARwvmmTJN.json"
+  ],
+  "batch_size": 20,
+  "max_concurrent": 3,
+  "no_batch": true,
+  "enable_translation": true,
+  "enable_tags": false,
+  "enable_overview": false,
+  "ai_bots": []
+}
