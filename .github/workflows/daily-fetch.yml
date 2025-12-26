@@ -38,7 +38,8 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
         run: |
-          # Discover all feed directories
+          export PROJECT_ROOT="$(pwd)
+          echo "Project root: $PROJECT_ROOT"
           for feed_dir in twai-feeds/*/; do
             if [ -d "$feed_dir" ]; then
               feed_id=$(basename "$feed_dir")
@@ -49,11 +50,13 @@ jobs:
                 echo "Processing feed: $feed_id"
                 echo "Config: $config_path"
                 echo "Output: $feed_dir"
+                echo "Project root: $PROJECT_ROOT"
                 echo "========================================="
 
                 # Set environment variables for this feed
                 export FEED_CONFIG_PATH="$config_path"
                 export OUTPUT_DIR="$feed_dir"
+                export PROJECT_ROOT="$PROJECT_ROOT"
 
                 # Run the fetch script
                 node packages/fetch-tweet/dist/index.mjs
@@ -70,6 +73,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add twai-feeds/*/config.json twai-feeds/*/FEED_CONTENT twai-feeds/*/FEED_AI_BOT twai-feeds/*/FEED_AI_OVERVIEW_*
+          git add twai-feeds/*/*
           git commit -m "chore: update feed content [skip ci]" || echo "No changes to commit"
           git push

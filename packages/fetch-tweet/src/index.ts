@@ -418,6 +418,11 @@ if (process.argv[1] === import.meta.url || process.argv[1]?.endsWith('index.ts')
             console.log(`Loading config from: ${configPath}`);
             const configFile = await fs.readFile(resolvedConfigPath, 'utf-8');
             const config = JSON.parse(configFile);
+            const outputDir = process.env.OUTPUT_DIR ? path.resolve(process.cwd(), process.env.OUTPUT_DIR) : path.resolve(process.cwd(), 'cache');
+            await fs.mkdir(outputDir, { recursive: true });
+            console.log(outputDir)
+            console.log(process.env.$PROJECT_ROOT)
+            console.log(path.resolve(process.env.$PROJECT_ROOT, process.env.OUTPUT_DIR))
 
             // Increment version
             const currentVersion = parseInt(config.version, 10) || 0;
@@ -462,8 +467,9 @@ if (process.argv[1] === import.meta.url || process.argv[1]?.endsWith('index.ts')
             const [feed, feed_item_ai_bots_content] = res;
 
             // 3. Output Handling
-            const outputDir = process.env.OUTPUT_DIR ? path.resolve(process.cwd(), process.env.OUTPUT_DIR) : path.resolve(process.cwd(), 'cache');
-            await fs.mkdir(outputDir, { recursive: true });
+            // const outputDir = process.env.OUTPUT_DIR ? path.resolve(process.cwd(), process.env.OUTPUT_DIR) : path.resolve(process.cwd(), 'cache');
+            // await fs.mkdir(outputDir, { recursive: true });
+            // console.log(outputDir)
 
             // Helper function for compression
             const compressData = (data: string): Promise<Uint8Array> => {
