@@ -13,8 +13,7 @@
     "https://rss.app/feeds/v1.1/bp3Ap4Qtr9WZ3KtZ.json",
     "https://rss.app/feeds/v1.1/YJvwPTV3janoScvf.json",
     "https://rss.app/feeds/v1.1/4FGYmOOC9SPwC7sW.json",
-    "https://rss.app/feeds/v1.1/weMiFVWr5tVBkTYN.json",
-    "https://rss.app/feeds/v1.150vkVTjARwvmmTJN.json"
+    "https://rss.app/feeds/v1.1/weMiFVWr5tVBkTYN.json"
   ],
   "batch_size": 20,
   "max_concurrent": 3,
