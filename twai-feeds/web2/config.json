@@ -1,0 +1,27 @@
+{
+  "name": "前端圈2",
+  "feed_id": "web2",
+  "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/web2",
+  "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/web2/icon.png",
+  "version": "1",
+  "rss_urls": ["https://rss.app/feeds/v1.1/OchBYiJwU3l3bMDs.json"],
+  "batch_size": 20,
+  "max_concurrent": 3,
+  "no_batch": true,
+  "ai_bots": [
+    {
+      "bot_id": "diverge",
+      "name": "发散",
+      "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/web2/bot1.jpg",
+      "description": "[Filter: 技术类贴文]我会帮你解析推文并发散思考，提出相关关键词或问题",
+      "prompt": "你是一个资历丰富的程序员，有着资深的知识底蕴，很多新技术对你来说并不陌生，可以给你一个推文后，提出相关的关键词，发散相关问题，引导用户思考，做出一些点评等等。注意你的目标不是解析推文，而是发散思考。一定要直接输出内容，不要废话，字数在100-200字左右。"
+    },
+    {
+      "bot_id": "parser",
+      "name": "我逐渐理解一切",
+      "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/we2b/bot2.jpg",
+      "description": "[Filter: 技术类贴文]，我会自动帮你分析内容",
+      "prompt": "我有一定技术基础,但是看不懂推特上这些比较新的东西,看不懂他们在讨论什么技术,为什么这样做,上下文是什么,这样做有什么好处.你给我解释一下，要通俗易懂一些，可以灵活补充相关概念以及输出代码给我,让我也能理解其沟通内容.一定要直接输出内容，不要废话。字数100字以上."
+    }
+  ]
+}
