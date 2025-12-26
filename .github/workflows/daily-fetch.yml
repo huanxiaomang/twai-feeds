@@ -38,7 +38,7 @@ jobs:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_MODEL: ${{ secrets.AI_MODEL }}
         run: |
-          export PROJECT_ROOT="$(pwd)
+          export PROJECT_ROOT='$(pwd)'
           echo "Project root: $PROJECT_ROOT"
           for feed_dir in twai-feeds/*/; do
             if [ -d "$feed_dir" ]; then
