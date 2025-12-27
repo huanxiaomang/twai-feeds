@@ -3,7 +3,7 @@
   "feed_id": "web2",
   "feed_url": "https://github.com/huanxiaomang/twai-feeds/tree/main/twai-feeds/web2",
   "avatar": "https://raw.githubusercontent.com/huanxiaomang/twai-feeds/refs/heads/main/twai-feeds/web2/icon.png",
-  "version": "2",
+  "version": "3",
   "rss_urls": [
     "https://rss.app/feeds/v1.1/6Pv0rPibqAGzk0hg.json",
     "https://rss.app/feeds/v1.1/hvZocQNAaD6tBfz6.json",
