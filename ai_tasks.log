@@ -952,3 +952,159 @@ Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成
 帖子数据：
 [{"tw_id":"f7c7cf2910adb9fb4a353fb0f1ee170e","content":"原来我第一次来重庆，以前去的是成都😅"},{"tw_id":"78c80e85cad09c9a0d0c6b9b59b662c6","content":"女朋友说买amzn，已all in"},{"tw_id":"bbb4efef019494fc526683497bb01c70","content":"普京学我，也在恋爱中"},{"tw_id":"a5c939c14341deb5d54fd12df0ebc47e","content":"本来要和老板开会，老板说没电了。\n过了半天才发现是整个旧金山停电了"},{"tw_id":"17850b8f44f3d15375041e047d3b7a10","content":"一键生成Grok外宣识别提示词是什么垃圾东西，我都成外宣了？\n我经费呢"},{"tw_id":"6750b57c062f1ab6323801bdb2219a68","content":"丈母娘本科学CS的，最爽的就是解释MCP plugin然后滔滔不绝的回复"},{"tw_id":"09401465d529ce07d1fb1c3930ce99a4","content":"送了女朋友"},{"tw_id":"b5a5e3c8c70eb02264f2dc20dc158eea","content
 --------------------------------------------------
+[2025-12-29T19:19:55.472Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"e8ac6f2f6aef11ce61958d79080084d3","content":"昨天晚上快手老板躺床上刷抖音，看到条新闻《明年1月1日起，向好友发淫秽信息违法》，直拍大腿，立马拨通运营主管电话：原来播黄片根本不违法，还不赶紧给用户安排上！"},{"tw_id":"b6038950e01b91deb9a98c033397738e","content":"#Pluribus 这集女主终于走上正道了，先解决性压抑再解放全人类……"},{"tw_id":"ac220b3dfc2cb460000ebdcf3bf724a7","content":"写了点代码让 Gemini 3 Pro 在网上跟小妹妹聊骚，简直太强了，全自动约炮……可惜我不敢去😂请问这个拿出去卖有市场不？犯不犯法？"},{"tw_id":"843c9947d945e5ce3e24e14747c58385","content":"这个简单啊，判断不出来安全不安全就一律报不安全。\n\n你说，编译器有毒吧，我这tm很明显安全得不能再安全了。\n\n然后他们说，那你加 unsafe，出了事算你的锅。TheCommunist (@rpcmsj)我的直觉是 绝对的编译期间就知道安全 等价于 停机问题 根本不可能解决"},{"tw_id":"7cbfd8315216745ed67ac08c3dff8115","content":"Rus
+--------------------------------------------------
+[2025-12-29T19:19:55.728Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"4e60b00451f6865613e3832555874b21","content":"下班快乐\n回家路上买个炸串"},{"tw_id":"ccc98294a6fa9d613a8af3951df36215","content":"上周在北京 AICon 上关于《新一代工程师的破局与发展-从岗位到能力的转型实践》的分享，把 PPT 转成文章放到于此，希望可以给新一代工程师们一些输入，也期待大伙一起交流。\ntw93.fun/2025-12-22/engineer…"},{"tw_id":"a77300ebd3091c5ffb4edc38d172ebf2","content":"CodeyBar this Mac application is quite good, if you use Codex, Claude Code, Gemini these several Coding, after installation, you can easily see your usage and usage status from the menu bar, very convenient, very necessary for me, interested friends can try it.\ncodexbar.app/"},{"tw_id":"5d5d31c2a7c8c81d55976c3
+--------------------------------------------------
+[2025-12-29T19:19:56.743Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"6ecb9835bdab484c3b263ae9f0834662","content":"💥 I've been doing this series of visual explainers, Monday was web rendering, and Tuesday was Android rendering, so of course, up next is iOS!\n\nOne very interesting part of iOS is the concept of double and triple buffering, meaning the frame is process two or three frames before display, so that iOS can have extremely smooth updates."},{"tw_id":"e34a2078a2d9823fe501b074ef13cd71","content":"If you want to watch me talk through this, or some of the other drawings, I gave a keynote recently, starts at that breakpoint\n\nyoutu.be/tGnv1ENzPmQ?si=Wk1c…"},{"
+--------------------------------------------------
+[2025-12-29T19:19:56.838Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"ebc77aafe990a9167b5bc49650bfe4f0","content":"Same here. I’ve mainly moved to BlueSky. (And the algorithm here also rate limits me)— Sarah Drasner (@sarah_edo) November 9, 2024"},{"tw_id":"39ae80d29d13047719bea4c78fce2a2e","content":"to my American dude friends: a reminder that a vasectomy is relatively painless and inexpensive and effective even in states where women are being legislated out of bodily autonomy— Jason Lengstorf (@jlengstorf) November 6, 2024"},{"tw_id":"36772c87097caa438412c852bcda4019","content":"To the extent that AI agents for coding are a proxy for what we’ll see when agents com
+--------------------------------------------------
+[2025-12-29T19:19:57.736Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"e8f7219969534b9bf49a3d79e3113911","content":"Another excellent read from @addyosmani \n\nTreat AI-Generated code as a draft\n\n\"The craft of software engineering is about far more than producing code that runs – it’s about knowing why the code is written that way, and how to evolve it.\"https://t.co/V6yOgZVU1a— Bilgin Ibryam (@bibryam) November 28, 2025"},{"tw_id":"3a68d507698cf8cb3211839cb2ec0739","content":"\"Treat AI-generated code as a draft\" - Here's a longer form article about this  open.substack.com/pub/addyo/… ✍️"},{"tw_id":"6350380f0f33d865476d24b941a373f5","content":"Treat AI-generated 
+--------------------------------------------------
+[2025-12-29T19:19:57.842Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"10cde465e4d65047aa8af2d1d6b024a7","content":"如果我还抽不中H1b就只能和女朋友婚绿了，那我会被重庆老婆天天打"},{"tw_id":"7622c434f67f078f61ceb65db0f61cf8","content":"没有耕坏的地，只有累死的牛"},{"tw_id":"27939b020c5603de0bebdbe9cabc6428","content":"我以前有一个朋友，第一天问我借一百刀交房租，第二天买了一件四百刀的衣服。\n何意味"},{"tw_id":"9f0f52f724bc5546738a8f79f87fe058","content":"小时候被人贩子拐卖斩杀、高考压力大自杀被斩杀、高考分数低被斩杀、毕业后找不到工作被斩杀、背三十年贷款后被裁员斩杀……\n老中一辈子都在斩杀线边缘"},{"tw_id":"350c14ac7dc84e1aec819b445fa7e058","content":"可以预见的我十一月开始基本不打电子游戏了"},{"tw_id":"f7c7cf2910adb9fb4a353fb0f1ee170e","content":"原来我第一次来重庆，以前去的是成都😅"},{"tw_id":"78c80e85cad09c9a0d0c6b9b59b662c6","content":"女朋友说买amzn，已all 
+--------------------------------------------------
