@@ -640,3 +640,627 @@ Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成
 帖子数据：
 [{"tw_id":"b5a5e3c8c70eb02264f2dc20dc158eea","content":"你以为我只是来演讲的，其实我是带女朋友度假，顺带见个父母"},{"tw_id":"68ae1c811a3c82fa499398c41a61a309","content":"我的SNDK被call走了"},{"tw_id":"aa1fb04b67ef2c3d76c6f461532c3e19","content":"今天，我▇▇▇▇ ▇▇▇ ▇▇▇▇ ▇▇▇▇▇▇▇ ▇▇▇▇▇▇ ▇▇▇▇▇ ▇▇▇。 ▇▇▇▇▇ ▇▇▇ ▇▇▇▇▇▇▇ ▇▇！"},{"tw_id":"e322f10f307dcc5e6dccbdd16b1e60c8","content":"感觉把一群人整破防了"}]
 --------------------------------------------------
+[2025-12-27T19:15:20.867Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"b6038950e01b91deb9a98c033397738e","content":"#Pluribus 这集女主终于走上正道了，先解决性压抑再解放全人类……"},{"tw_id":"ac220b3dfc2cb460000ebdcf3bf724a7","content":"写了点代码让 Gemini 3 Pro 在网上跟小妹妹聊骚，简直太强了，全自动约炮……可惜我不敢去😂请问这个拿出去卖有市场不？犯不犯法？"},{"tw_id":"843c9947d945e5ce3e24e14747c58385","content":"这个简单啊，判断不出来安全不安全就一律报不安全。\n\n你说，编译器有毒吧，我这tm很明显安全得不能再安全了。\n\n然后他们说，那你加 unsafe，出了事算你的锅。"},{"tw_id":"7cbfd8315216745ed67ac08c3dff8115","content":"Rust 爱好说，Rust 是安全的。\n（小字：指大多数情况下，除非你用 unsafe）\n（小小字：大多数情况下，你不需要用 unsafe）\n（小小小字：为了保证大多数情况下你不需要用 unsafe，大多数情况下你需要用到 unsafe）"},{"tw_id":"8c77d415874d4ba26aa8ccd6f6027ebb","content":"为什么 Rust lovers 那
+--------------------------------------------------
+[2025-12-27T19:15:21.180Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"0e92124037c932471c51cbe7d771b2a9","content":"g.co/g1referral/40HU8K8Z\n这个好不错，邀请好用免费使用 Google AI Pro 4个月，我最近最喜欢用的就是 gemini 了，聊天和代码都很不错！"},{"tw_id":"7302ae717915551579f78938f684e0fa","content":"Pile 这个思路好棒，一款用于记录每天的思考反思日历的桌面软件，非常简单，数据保持在本地，然后通过 AI 来分析，好比一个人生记录器，然后 AI 来帮你更好的理顺。\n udara.io/pile/"},{"tw_id":"fdb120846af16d7102b8438927064f23","content":"回家做个夜宵"},{"tw_id":"37d21c45b7e013bc7f7772e0acd80335","content":"一个好用的 Markdown 原生 Mac 客户端妙言，分栏模式终于发布了，属于近两年下妙言最大的一个特性支持，欢迎大伙使用，也欢迎报 Bug。\n github.com/tw93/MiaoYan\n本次 2.3 版本更新如下，取名 Big change🎄,也祝你下周圣诞节快乐～\n1、新增「分栏预览」模式，支持左右分栏同时编辑与预览，双向滚动自动同步\n2、新增「布局循环」按
+--------------------------------------------------
+[2025-12-27T19:15:22.999Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"e34a2078a2d9823fe501b074ef13cd71","content":"If you want to watch me talk through this, or some of the other drawings, I gave a keynote recently, starts at that breakpoint\n\nyoutu.be/tGnv1ENzPmQ?si=Wk1c…"},{"tw_id":"24031f0f9b0044181d7f61e3fb26f882","content":"💥 Yesterday I posted how rendering works on web, here's a small breakdown on how it works on Android for those who want to compare and contrast across platforms.\n\nOne interesting thing to note- you can see that this is different from the web- in Android, you participate in the measure and layout pass at the same abstraction level as the f
+--------------------------------------------------
+[2025-12-27T19:15:23.304Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"39ae80d29d13047719bea4c78fce2a2e","content":"to my American dude friends: a reminder that a vasectomy is relatively painless and inexpensive and effective even in states where women are being legislated out of bodily autonomy— Jason Lengstorf (@jlengstorf) November 6, 2024"},{"tw_id":"e3408c2468ff72d692113d6f0b67c3cb","content":"This is the most fun moment to be a developer in years. \n\nThe AI tools are imperfect, the patterns are still emerging, and there's genuine room for experimentation. Roll up your sleeves and build something. The earthquake is further opening up what's possible.\n\nThe best
+--------------------------------------------------
+[2025-12-27T19:15:25.126Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"6350380f0f33d865476d24b941a373f5","content":"Treat AI-generated code as a draft. \n\nIt can write the first version, but never outsource the reading. No human review means no reliable trace from behavior back to intent.\n\nWhen you stop reviewing AI drafts, you stop knowing why the code works at all."},{"tw_id":"dbaff8404f38cc6dcaced1e9b912d9bd","content":"Vibe-coding is not the same as AI-Assisted engineering.\n\nA recent Reddit post described how a FAANG team uses AI and it sparked an important conversation about semantics: \"vibe coding\" and professional \"AI-assisted engineering\". While the p
+--------------------------------------------------
+[2025-12-27T19:15:25.419Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"78c80e85cad09c9a0d0c6b9b59b662c6","content":"女朋友说买amzn，已all in"},{"tw_id":"bbb4efef019494fc526683497bb01c70","content":"普京学我，也在恋爱中"},{"tw_id":"a5c939c14341deb5d54fd12df0ebc47e","content":"本来要和老板开会，老板说没电了。\n过了半天才发现是整个旧金山停电了"},{"tw_id":"17850b8f44f3d15375041e047d3b7a10","content":"一键生成Grok外宣识别提示词是什么垃圾东西，我都成外宣了？\n我经费呢"},{"tw_id":"6750b57c062f1ab6323801bdb2219a68","content":"丈母娘本科学CS的，最爽的就是解释MCP plugin然后滔滔不绝的回复"},{"tw_id":"09401465d529ce07d1fb1c3930ce99a4","content":"送了女朋友"},{"tw_id":"b5a5e3c8c70eb02264f2dc20dc158eea","content":"你以为我只是来演讲的，其实我是带女朋友度假，顺带见个父母"},{"tw_id":"68ae1c811a3c82fa499398c41a61a309"
+--------------------------------------------------
+[2025-12-28T19:15:30.007Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"b6038950e01b91deb9a98c033397738e","content":"#Pluribus 这集女主终于走上正道了，先解决性压抑再解放全人类……"},{"tw_id":"ac220b3dfc2cb460000ebdcf3bf724a7","content":"写了点代码让 Gemini 3 Pro 在网上跟小妹妹聊骚，简直太强了，全自动约炮……可惜我不敢去😂请问这个拿出去卖有市场不？犯不犯法？"},{"tw_id":"843c9947d945e5ce3e24e14747c58385","content":"这个简单啊，判断不出来安全不安全就一律报不安全。\n\n你说，编译器有毒吧，我这tm很明显安全得不能再安全了。\n\n然后他们说，那你加 unsafe，出了事算你的锅。TheCommunist (@rpcmsj)我的直觉是 绝对的编译期间就知道安全 等价于 停机问题 根本不可能解决"},{"tw_id":"7cbfd8315216745ed67ac08c3dff8115","content":"Rust 爱好说，Rust 是安全的。\n（小字：指大多数情况下，除非你用 unsafe）\n（小小字：大多数情况下，你不需要用 unsafe）\n（小小小字：为了保证大多数情况下你不需要用 unsafe，大多数情况下你需要用到 unsafe）"},{"tw_id":"8c77d
+--------------------------------------------------
+[2025-12-28T19:15:30.260Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"652bfda5127291061378691f26cbc44b","content":"这个 X (Twitter) Shadowban Checker F 做得挺有用的，输入你的用户 id，可以用来判断某个账号或某条帖子有没有被搜索降权/搜索排除/回复折叠，顺便可以基于此看后面账号是否容易被封的一个点。\nx-shadowban-checker.fia-s.co…"},{"tw_id":"e44c660d9c307cd53d9214464174b1da","content":"这个免费开源的 Mac 菜单栏日历 MacCalendar 做得还可以，感觉有点借鉴我之前推荐过的付费 Top Calendar，我现在还是用 Top 这个，非常喜欢，相当于把你的时间、日历、日程全部放到菜单栏了，特别适合上班族一眼看日程，有需要的小伙伴可以玩玩看。\ngithub.com/bylinxx/MacCalend…"},{"tw_id":"0e92124037c932471c51cbe7d771b2a9","content":"g.co/g1referral/40HU8K8Z\n这个好不错，邀请好用免费使用 Google AI Pro 4个月，我最近最喜欢用的就是 gemini 了，聊天和代码都很不错！"},{"tw_id":"7302ae717915551579f78938f684e0fa","con
+--------------------------------------------------
+[2025-12-28T19:15:31.298Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"e34a2078a2d9823fe501b074ef13cd71","content":"If you want to watch me talk through this, or some of the other drawings, I gave a keynote recently, starts at that breakpoint\n\nyoutu.be/tGnv1ENzPmQ?si=Wk1c…"},{"tw_id":"24031f0f9b0044181d7f61e3fb26f882","content":"💥 Yesterday I posted how rendering works on web, here's a small breakdown on how it works on Android for those who want to compare and contrast across platforms.\n\nOne interesting thing to note- you can see that this is different from the web- in Android, you participate in the measure and layout pass at the same abstraction level as the f
+--------------------------------------------------
+[2025-12-28T19:15:31.350Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"39ae80d29d13047719bea4c78fce2a2e","content":"to my American dude friends: a reminder that a vasectomy is relatively painless and inexpensive and effective even in states where women are being legislated out of bodily autonomy— Jason Lengstorf (@jlengstorf) November 6, 2024"},{"tw_id":"36772c87097caa438412c852bcda4019","content":"To the extent that AI agents for coding are a proxy for what we’ll see when agents come to other fields of knowledge work, then this is a technology whose impact can be most felt by the experts in any particular field. \n\nOne surprising thing with AI coding agents is there
+--------------------------------------------------
+[2025-12-28T19:15:32.359Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"3a68d507698cf8cb3211839cb2ec0739","content":"\"Treat AI-generated code as a draft\" - Here's a longer form article about this  open.substack.com/pub/addyo/… ✍️"},{"tw_id":"6350380f0f33d865476d24b941a373f5","content":"Treat AI-generated code as a draft. \n\nIt can write the first version, but never outsource the reading. No human review means no reliable trace from behavior back to intent.\n\nWhen you stop reviewing AI drafts, you stop knowing why the code works at all."},{"tw_id":"dbaff8404f38cc6dcaced1e9b912d9bd","content":"Vibe-coding is not the same as AI-Assisted engineering.\n\nA recent Reddit
+--------------------------------------------------
+[2025-12-28T19:15:32.389Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"f7c7cf2910adb9fb4a353fb0f1ee170e","content":"原来我第一次来重庆，以前去的是成都😅"},{"tw_id":"78c80e85cad09c9a0d0c6b9b59b662c6","content":"女朋友说买amzn，已all in"},{"tw_id":"bbb4efef019494fc526683497bb01c70","content":"普京学我，也在恋爱中"},{"tw_id":"a5c939c14341deb5d54fd12df0ebc47e","content":"本来要和老板开会，老板说没电了。\n过了半天才发现是整个旧金山停电了"},{"tw_id":"17850b8f44f3d15375041e047d3b7a10","content":"一键生成Grok外宣识别提示词是什么垃圾东西，我都成外宣了？\n我经费呢"},{"tw_id":"6750b57c062f1ab6323801bdb2219a68","content":"丈母娘本科学CS的，最爽的就是解释MCP plugin然后滔滔不绝的回复"},{"tw_id":"09401465d529ce07d1fb1c3930ce99a4","content":"送了女朋友"},{"tw_id":"b5a5e3c8c70eb02264f2dc20dc158eea","content
+--------------------------------------------------
+[2025-12-29T19:19:55.472Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"e8ac6f2f6aef11ce61958d79080084d3","content":"昨天晚上快手老板躺床上刷抖音，看到条新闻《明年1月1日起，向好友发淫秽信息违法》，直拍大腿，立马拨通运营主管电话：原来播黄片根本不违法，还不赶紧给用户安排上！"},{"tw_id":"b6038950e01b91deb9a98c033397738e","content":"#Pluribus 这集女主终于走上正道了，先解决性压抑再解放全人类……"},{"tw_id":"ac220b3dfc2cb460000ebdcf3bf724a7","content":"写了点代码让 Gemini 3 Pro 在网上跟小妹妹聊骚，简直太强了，全自动约炮……可惜我不敢去😂请问这个拿出去卖有市场不？犯不犯法？"},{"tw_id":"843c9947d945e5ce3e24e14747c58385","content":"这个简单啊，判断不出来安全不安全就一律报不安全。\n\n你说，编译器有毒吧，我这tm很明显安全得不能再安全了。\n\n然后他们说，那你加 unsafe，出了事算你的锅。TheCommunist (@rpcmsj)我的直觉是 绝对的编译期间就知道安全 等价于 停机问题 根本不可能解决"},{"tw_id":"7cbfd8315216745ed67ac08c3dff8115","content":"Rus
+--------------------------------------------------
+[2025-12-29T19:19:55.728Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"4e60b00451f6865613e3832555874b21","content":"下班快乐\n回家路上买个炸串"},{"tw_id":"ccc98294a6fa9d613a8af3951df36215","content":"上周在北京 AICon 上关于《新一代工程师的破局与发展-从岗位到能力的转型实践》的分享，把 PPT 转成文章放到于此，希望可以给新一代工程师们一些输入，也期待大伙一起交流。\ntw93.fun/2025-12-22/engineer…"},{"tw_id":"a77300ebd3091c5ffb4edc38d172ebf2","content":"CodeyBar this Mac application is quite good, if you use Codex, Claude Code, Gemini these several Coding, after installation, you can easily see your usage and usage status from the menu bar, very convenient, very necessary for me, interested friends can try it.\ncodexbar.app/"},{"tw_id":"5d5d31c2a7c8c81d55976c3
+--------------------------------------------------
+[2025-12-29T19:19:56.743Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"6ecb9835bdab484c3b263ae9f0834662","content":"💥 I've been doing this series of visual explainers, Monday was web rendering, and Tuesday was Android rendering, so of course, up next is iOS!\n\nOne very interesting part of iOS is the concept of double and triple buffering, meaning the frame is process two or three frames before display, so that iOS can have extremely smooth updates."},{"tw_id":"e34a2078a2d9823fe501b074ef13cd71","content":"If you want to watch me talk through this, or some of the other drawings, I gave a keynote recently, starts at that breakpoint\n\nyoutu.be/tGnv1ENzPmQ?si=Wk1c…"},{"
+--------------------------------------------------
+[2025-12-29T19:19:56.838Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"ebc77aafe990a9167b5bc49650bfe4f0","content":"Same here. I’ve mainly moved to BlueSky. (And the algorithm here also rate limits me)— Sarah Drasner (@sarah_edo) November 9, 2024"},{"tw_id":"39ae80d29d13047719bea4c78fce2a2e","content":"to my American dude friends: a reminder that a vasectomy is relatively painless and inexpensive and effective even in states where women are being legislated out of bodily autonomy— Jason Lengstorf (@jlengstorf) November 6, 2024"},{"tw_id":"36772c87097caa438412c852bcda4019","content":"To the extent that AI agents for coding are a proxy for what we’ll see when agents com
+--------------------------------------------------
+[2025-12-29T19:19:57.736Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"e8f7219969534b9bf49a3d79e3113911","content":"Another excellent read from @addyosmani \n\nTreat AI-Generated code as a draft\n\n\"The craft of software engineering is about far more than producing code that runs – it’s about knowing why the code is written that way, and how to evolve it.\"https://t.co/V6yOgZVU1a— Bilgin Ibryam (@bibryam) November 28, 2025"},{"tw_id":"3a68d507698cf8cb3211839cb2ec0739","content":"\"Treat AI-generated code as a draft\" - Here's a longer form article about this  open.substack.com/pub/addyo/… ✍️"},{"tw_id":"6350380f0f33d865476d24b941a373f5","content":"Treat AI-generated 
+--------------------------------------------------
+[2025-12-29T19:19:57.842Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"10cde465e4d65047aa8af2d1d6b024a7","content":"如果我还抽不中H1b就只能和女朋友婚绿了，那我会被重庆老婆天天打"},{"tw_id":"7622c434f67f078f61ceb65db0f61cf8","content":"没有耕坏的地，只有累死的牛"},{"tw_id":"27939b020c5603de0bebdbe9cabc6428","content":"我以前有一个朋友，第一天问我借一百刀交房租，第二天买了一件四百刀的衣服。\n何意味"},{"tw_id":"9f0f52f724bc5546738a8f79f87fe058","content":"小时候被人贩子拐卖斩杀、高考压力大自杀被斩杀、高考分数低被斩杀、毕业后找不到工作被斩杀、背三十年贷款后被裁员斩杀……\n老中一辈子都在斩杀线边缘"},{"tw_id":"350c14ac7dc84e1aec819b445fa7e058","content":"可以预见的我十一月开始基本不打电子游戏了"},{"tw_id":"f7c7cf2910adb9fb4a353fb0f1ee170e","content":"原来我第一次来重庆，以前去的是成都😅"},{"tw_id":"78c80e85cad09c9a0d0c6b9b59b662c6","content":"女朋友说买amzn，已all 
+--------------------------------------------------
+[2025-12-30T19:17:54.341Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"f6c77e073c11cf59cb45ad401945b66b","content":"公共道路上飙车不像看起来那么困难：快到一定程度之后就不再需要看后视镜了，只用关注正前方可以帮助节省相当一部分精力。"},{"tw_id":"7b74bf84326f0836b79f6bbe8e0e60d9","content":"路边社深入调查后发现，腾讯为了落地新法规正在大量挖角鉴黄师，导致快手鉴黄师严重不足，剩下的鉴黄师就跟公司谈待遇，后来没谈妥集体罢工了。"},{"tw_id":"3056221d47448cfe49d1111715c6ef20","content":"罗永浩：你瞧瞧现在哪还有瓜啊，我这都是大鹏的瓜，保熟……"},{"tw_id":"e8ac6f2f6aef11ce61958d79080084d3","content":"昨天晚上快手老板躺床上刷抖音，看到条新闻《明年1月1日起，向好友发淫秽信息违法》，直拍大腿，立马拨通运营主管电话：原来播黄片根本不违法，还不赶紧给用户安排上！"},{"tw_id":"b6038950e01b91deb9a98c033397738e","content":"#Pluribus 这集女主终于走上正道了，先解决性压抑再解放全人类……"},{"tw_id":"ac220b3dfc2cb460000ebdcf3bf724a7","content":"写了点
+--------------------------------------------------
+[2025-12-30T19:17:54.647Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"bc964dda996679f2b002c144218d3dbc","content":"一次可以清理几十个 G 的 Mole 工具，诞生于国庆我在三亚的泳池编写的第一行代码，不到 80 天，从 0 到 20K+ Star，被全球开发者喜欢和推荐，非常感谢大伙的喜欢。\n\n今天发布了 1.15 版本，更新如下：\n1. 启动与重复扫描速度最高提升 10 倍，日常使用明显更快。\n2. 自动跳过网络磁盘并加入超时保护，磁盘扫描更稳定不再卡顿。\n3. 文件权限策略全面收紧，进一步避免误操作影响系统。\n4. 新增 pnpm 缓存与回收站白名单清理，清理范围更全面也更安心。\n5. 终端输出与进度提示全面优化，使用体验更清晰顺滑。Tw93 (@HiTw93)Mole is a tool that can reclaim tens of gigabytes in a single cleanup. In less than 80 days, it has grown from 0 to over 20K stars, loved and shared by developers around the world — thank you all for the support and recommendations.  github.com/tw93/Mole\n\nToday, Mole v1.
+--------------------------------------------------
+[2025-12-30T19:17:56.447Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"1b2e0524a20a6f5988659700cb879ce4","content":"💥 Last visual explainer for the week! The WASM compilation workflow, with a little zoom in to the details of C/C++\n\nWe've been leveraging WASM for deep performance, portability, and at times security benefits, and seen amazing results, particularly for Multiplat initiatives. I… pic.twitter.com/nsyp9M5rQF— Sarah Drasner (@sarah_edo) November 14, 2025"},{"tw_id":"0c9da6c54aa539c8664fddaa9bfaa8a6","content":"💥 Next up in visual explainers: the difference between GPU and CPU! This may be review for some but good to cover- \n\nFor instance, understanding 
+--------------------------------------------------
+[2025-12-30T19:17:56.751Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"c8ad20e4759222e99e57618fd5874f9b","content":"Hey all, we are hiring at Google on my team in Core- if you're interested in infrastructure at scale, here are some of the openings!\n\nMany of these are in Mexico, if you either live in the area, would like to, or have friends that are, here they are:"},{"tw_id":"fb994133a02b416198a1ddbe86859cbc","content":"Hooray Angie!!!— Sarah Drasner (@sarah_edo) November 9, 2024"},{"tw_id":"697e68ad8f80e94375681aa15387a29c","content":"🦋— Sarah Drasner (@sarah_edo) November 9, 2024"},{"tw_id":"ebc77aafe990a9167b5bc49650bfe4f0","content":"Same here. I’ve mainly move
+--------------------------------------------------
+[2025-12-30T19:17:58.736Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"b0c74561915e6e38e1b42f37f00068cc","content":"\"How to become an effective senior software engineer\": The T-Shape - my latest free video: youtu.be/watch?v=IMHneaMO…"},{"tw_id":"d80c97740a78f7d5f3d3b63622b7c08e","content":"Introducing Chrome's new Split View: see two web pages side-by-side in one tab ✨"},{"tw_id":"47b043ecd33faa1148e2137d9bc03f0a","content":"Excited to share my new @YouTube series on Software Engineering Effectiveness! Made with @googledevs \n\nyoutu.be/lqcKquUl3Wk"},{"tw_id":"2473a14968575277f143ec407b85aa5f","content":"After ~14 years working on Chrome, it's time for a new chapter
+--------------------------------------------------
+[2025-12-30T19:17:59.026Z]
+Translation batch FAILED
+Error: HTTP 403: Forbidden - "RPM limit exceeded. Please complete identity verification to lift the restriction."
+Prompt: 你是一个专业的翻译助手，只负责将非中文推文翻译成自然流畅的中文（技术类保留英文关键词）。
+
+输入是一个 JSON 数组，每项包含 tw_id 和 content。
+只返回需要翻译的项（已经是中文的直接跳过，不出现在输出中）。
+
+输出必须严格为以下格式，不能有多余文字、解释或代码块：
+如果原内容有链接,或详细数据等,一定要完整保留,防止用户不能正常浏览翻译后的内容!!!
+<Tranalate>{
+  "data": [
+    {
+      "tw_id": "原推文 id",
+      "translated_content": "翻译后的完整内容"
+    }
+    // ... 只包含需要翻译的项
+  ]
+}</Tranalate>
+
+如果没有需要翻译的项，返回：
+<Tranalate>{"data":[]}</Tranalate>
+
+帖子数据：
+[{"tw_id":"0e6ba86653736651c7060e777c69cf7a","content":"结论：买mecan油车+特斯拉电车"},{"tw_id":"f54565d69ed4beab85ee7bebec9c0091","content":"和女朋友产生了矛盾，她说结婚时候要买辆macan电动版。我反驳为什么不买特斯拉model X。\n推友们评评理"},{"tw_id":"3974f4f11dbf9c1773984f23f937521b","content":"2020年的赢学：我们有比美国住大house吃牛排更好的生活方式\n2025年的赢学：美国有斩杀线，我们有拼好饭，赢"},{"tw_id":"b57d1da3fcc8c6c0c60f3f6655b17f0e","content":"现在看到OpenAI一个月一万七工资，立马开始算税后和住旧金山的开销……原来没比我多多少"},{"tw_id":"05fe78775eb11fc2c76e22717d2edd69","content":"已经五年没有写年终总结，今年依然不写，以后也不会写了……\n以前是觉得自己做的事情还没完成，发出来有影响；现在利益相关越来越多了……现在还能发一点自己感想说明还没到影响股价的程度"},{"tw_id":"51174bc3c0118ebcd95230554babd1a1","content":"我：英伟达要2
+--------------------------------------------------
